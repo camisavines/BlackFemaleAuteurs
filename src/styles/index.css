@@ -1,0 +1,15 @@
+/* 
+Brown Color Scheme
+neutral-1    #d2a56d	(210,165,109)
+neutral-2    #ce8b54	(206,139,84)
+neutral-1    #bd7e4a	(189,126,74)
+neutral-1    #96613d	(150,97,61)
+neutral-1    #83502e	(131,80,46)
+*/
+
+body {
+    /* background-color: #C4A484; */
+    /* background-color: #B06C49; */
+    background-color: #A57A5A;
+    color: white;
+}
