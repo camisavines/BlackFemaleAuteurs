@@ -7,6 +7,12 @@ const About = () => {
             <section>
                 <div className="container">
                     <h1>About</h1>
+                    <p>what the site is about</p>
+                    <p>assignment description</p>
+                    <p>course and description</p>
+                    <p>Pages here</p>
+                    <p>Films and Readings</p>
+                    <p>other personal favorite films written and/or directed by black women</p>
 
                     <div className="row">
                         <div className="col-sm-12">

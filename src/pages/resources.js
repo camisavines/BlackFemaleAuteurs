@@ -1,6 +1,12 @@
 const Resources = () => {
     return (
-        <div>this is the resources page.</div>
+        <div style={{backgroundColor: "white", color: "black", paddingTop: "5rem", paddingBottom: "4rem"}}>
+            <section>
+                <div className="container">
+                    <h4>Resources</h4>
+                </div>
+            </section>
+        </div>
     )
 
 }
