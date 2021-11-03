@@ -1,2 +1,0 @@
-(this["webpackJsonpblack-female-auteurs"]=this["webpackJsonpblack-female-auteurs"]||[]).push([[0],{9:function(e,t,c){"use strict";c.r(t);var a=c(1),r=c.n(a),n=c(3),s=c.n(n),u=c(0);var i=function(){return Object(u.jsx)("div",{children:Object(u.jsx)("p",{children:"Home page of black female auteurs"})})};s.a.render(Object(u.jsx)(r.a.StrictMode,{children:Object(u.jsx)(i,{})}),document.getElementById("root"))}},[[9,1,2]]]);
-//# sourceMappingURL=main.d7fc6870.chunk.js.map
