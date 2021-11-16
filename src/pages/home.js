@@ -1,8 +1,23 @@
+import React from "react";
+
+import FreeAngela from "../components/research/FreeAngela";
+import BeyonceLemonade from "../components/research/BeyonceLemonade";
 import "../styles/home.css";
+import "../styles/timeline.css";
 
 const Home = () => {
     return (
         <>
+            <section>
+                <div className="container home hero my-5">
+                    <div className="w-75">
+                        <h1>Black Women, Resistance & Film</h1>
+                        <p>Camisa Vines</p>
+                    </div>
+                </div>
+            </section>
+
+
             <section>
                 <div className="container home hero py-5">
                     <div className="w-75">
@@ -16,6 +31,11 @@ const Home = () => {
             <section style={{background: "white", height:"10vh"}}>
 
             </section>
+
+            <div className="timeline px-4">
+                <FreeAngela />
+                <BeyonceLemonade />
+            </div>
         </>
     )
 
