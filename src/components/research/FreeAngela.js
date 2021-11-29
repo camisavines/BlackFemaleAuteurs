@@ -19,7 +19,7 @@ const FreeAngela = () => {
 
                 <div className="row mt-4">
                     <div className="col-sm-6 col-md-4 col-lg-5 pb-3">
-                        <img src="https://m.media-amazon.com/images/I/41RM61QX2FL._AC_.jpg" width="100%" />
+                        <img src="https://m.media-amazon.com/images/I/41RM61QX2FL._AC_.jpg" width="100%" alt="" />
                     </div>
 
                     <div className="col-md-8 col-lg-7 px-3">

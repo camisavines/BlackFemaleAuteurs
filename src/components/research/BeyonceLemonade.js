@@ -6,7 +6,7 @@ const BeyonceLemonade = () => {
     const RELEASE_YEAR = "2016";
     const FILM_TYPE = "Video Album"
     const RUNTIME = "1h 22m"
-    const RELEASE_DATE = "April 23, 2016";
+    // const RELEASE_DATE = "April 23, 2016";
 
 
     return (

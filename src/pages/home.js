@@ -8,11 +8,13 @@ import "../styles/timeline.css";
 const Home = () => {
     return (
         <>
-            <section>
-                <div className="container home hero my-5">
+            <section className="bg-hero">
+                <div className="container home hero text-brown">
                     <div className="w-75">
-                        <h1>Black Women, Resistance & Film</h1>
-                        <p>Camisa Vines</p>
+                        {/* <div className="w-50"> */}
+                            <h1>Black Women, Resistance & Film</h1>
+                            <p>Camisa Vines</p>
+                        {/* </div> */}
                     </div>
                 </div>
             </section>
