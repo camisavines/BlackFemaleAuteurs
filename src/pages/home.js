@@ -2,6 +2,7 @@ import React from "react";
 
 import FreeAngela from "../components/research/FreeAngela";
 import BeyonceLemonade from "../components/research/BeyonceLemonade";
+import SholaLynch from "../components/research/SholaLynch";
 import PTab from "../components/paragraphTab";
 import * as THIS from "../data/researchOutline";
 import "../styles/home.css";
@@ -31,18 +32,18 @@ const Home = () => {
                 </div>
             </section>
 
+
+            {/* Purpose and Claim */}
             <section style={{background: "white"}}>
-                <div className="container w-75 py-5">
-                    <p><PTab />  </p>
+                <div className="container home hero py-5">
+                    <p><PTab />{THIS.PURPOSE} <strong>{THIS.CLAIM}</strong></p>
                 </div>
             </section>
 
 
-
-            {/* MY CLAIM */}
-            <section style={{background: "white", fontSize: "2em"}}>
-                <div className="container home hero text-center">
-                    <p>{THIS.CLAIM}</p>
+            <section>
+                <div className="container">
+                    <SholaLynch />
                 </div>
             </section>
 
@@ -52,13 +53,10 @@ const Home = () => {
 
             {/* TIMELINE + RESEARCH */}
             <div className="timeline px-4">
-                <FreeAngela />
-                <BeyonceLemonade />
+                {/* <FreeAngela /> */}
+                {/* <BeyonceLemonade /> */}
             </div>
 
-            <section className="text-center d-flex justify-content-center align-items-center" style={{height: "10vh", backgroundColor: "#fcfcfc"}}>
-                End of Content
-            </section>
         </>
     )
 

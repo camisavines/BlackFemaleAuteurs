@@ -5,10 +5,11 @@ import { BrowserRouter as Router, Route} from 'react-router-dom';
 import Home from "./pages/home";
 import About from "./pages/about";
 import Classmates from "./pages/classmates";
-import Resources from "./pages/resources";
+// import Resources from "./pages/resources";
 
 // components
 import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 import * as ROUTES from "./constants/routes";
 
 // styles
@@ -23,8 +24,8 @@ function App() {
       <Route exact path={ROUTES.HOME} component={Home} />
       <Route path={ROUTES.ABOUT} component={About} />
       <Route path={ROUTES.CLASSMATES} component={Classmates} />
-      <Route path={ROUTES.RESOURCES} component={Resources} />
-
+      {/* <Route path={ROUTES.RESOURCES} component={Resources} /> */}
+      <Footer />
     </Router>
   );
 }
