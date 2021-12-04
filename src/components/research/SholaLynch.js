@@ -15,7 +15,7 @@ const SholaLynch = () => {
 
             <div className="row">
                 <div className="col-sm-12 col-md-6 col-xl-4 bg-blue">
-                    <img src="https://m.media-amazon.com/images/I/41RM61QX2FL._AC_.jpg" width="100%" alt=""  />            
+                    <img src="https://m.media-amazon.com/images/I/41RM61QX2FL._AC_.jpg" width="100%" alt="" />            
                 </div>
 
                 <div className="col-sm-12 col-md-6 col-xl-8">
