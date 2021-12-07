@@ -8,11 +8,12 @@ const About = () => {
                 <div className="container">
                     <h1>About</h1>
                     <p>
-                        This site represents the research I conducted during my time in the course MSCH-F 375: Black Female Auteurs. 
-                        It is an annotated bibliography that works to examine acts of resistance made by black women throughout the history of the film industry by highlighting extraordinary films created by black women.
-                        Each film is analyzed by its relation to its auteur and its connection to some of the issues that black women were facing around the time of its release.
-                        While this analysis works to expose the [], reveal the barriers that black women face in the film industry, and discuss the affect that these women have on society, 
-                        it also works to celebrate the artistic approach and its disruptive and revolutionary nature.
+                        This site represents the research I conducted for my final project in the course MSCH-F 375: Black Female Auteurs. 
+                        It is formatted as an annotated bibliography that works to examine acts of resistance made by black women throughout the history 
+                        of the film industry by highlighting extraordinary films by black women. 
+                        Each film is analyzed by its relation to its auteur and its connection to some of the issues that black women were facing around the time of its release. 
+                        While this analysis works to underline the definition of mental colonization, reveal the barriers that black women face in the film industry, and discuss the effect 
+                        that these women have on society, it also works to celebrate the artistic approach and its disruptive and revolutionary nature.
                     </p>
 
 

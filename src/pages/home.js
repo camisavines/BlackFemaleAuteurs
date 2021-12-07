@@ -1,7 +1,7 @@
 import React from "react";
 
-import FreeAngela from "../components/research/FreeAngela";
-import BeyonceLemonade from "../components/research/BeyonceLemonade";
+// import FreeAngela from "../components/research/FreeAngela";
+// import BeyonceLemonade from "../components/research/BeyonceLemonade";
 import SholaLynch from "../components/research/SholaLynch";
 import PTab from "../components/paragraphTab";
 import * as THIS from "../data/researchOutline";
@@ -12,16 +12,16 @@ const Home = () => {
     return (
         <>
             <section className="bg-hero">
-                <div className="container home hero text-brown">
+                <div className="container home hero">
                     <div className="w-75">
-                        {/* <div className="w-50"> */}
-                            <h1>Black Women, Resistance & Film</h1>
-                            <p>Camisa Vines</p>
-                        {/* </div> */}
+                        {/* <h1>Black Women, Resistance & Film</h1> */}
+                        <h1>Resistance of Hegemony: Mental Liberation by the Thrivingness and Prosperity of Black Female Auteurs</h1>
+                        <p>Camisa Vines</p>
+                        <p>December 14, 2021</p>
                     </div>
                 </div>
             </section>
-            
+
 {/* 
             <section>
                 <div className="container home hero">
@@ -35,8 +35,8 @@ const Home = () => {
  */}
 
             {/* Purpose and Claim */}
-            <section style={{background: "white"}}>
-                <div className="container home hero">
+            <section style={{background: "white", minHeight: "80vh"}}>
+                <div className="container py-5">
                     <p><PTab />{THIS.PURPOSE} <strong>{THIS.CLAIM}</strong></p>
                 </div>
             </section>

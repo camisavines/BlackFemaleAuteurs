@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route} from 'react-router-dom';
 // pages
 import Home from "./pages/home";
 import About from "./pages/about";
-import Classmates from "./pages/classmates";
+// import Classmates from "./pages/classmates";
 // import Resources from "./pages/resources";
 
 // components
@@ -23,7 +23,7 @@ function App() {
 
       <Route exact path={ROUTES.HOME} component={Home} />
       <Route path={ROUTES.ABOUT} component={About} />
-      <Route path={ROUTES.CLASSMATES} component={Classmates} />
+      {/* <Route path={ROUTES.CLASSMATES} component={Classmates} /> */}
       {/* <Route path={ROUTES.RESOURCES} component={Resources} /> */}
       <Footer />
     </Router>

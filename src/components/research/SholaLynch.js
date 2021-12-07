@@ -10,8 +10,12 @@ const SholaLynch = () => {
     const RUNTIME = "1h 22m"
 
     return (
-        <div style={{minHeight: "100vh"}}>
-            <h3 className="mb-5"><em>Free Angela Davis and All Political Prisoners.</em> Directed by Shola Lynch, 2013.</h3>
+        <div className="py-5" style={{minHeight: "100vh"}}>
+            <div className="pb-5">
+                <h2>{TITLE}</h2>
+                <h5>Directed by {AUTEUR}, {RELEASE_YEAR}.</h5>
+            </div>
+
 
             <div className="row">
                 <div className="col-sm-12 col-md-6 col-xl-4 bg-blue">
