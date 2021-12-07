@@ -36,9 +36,9 @@ const About = () => {
 
             <section>
                 <div className="container">
-                    <div className="w-75 my-5">
+                    <div className="my-5">
                         <h2>Films</h2>
-                        <p>Here are some of the films we studied. Much of the research that my classmates and I conducted is dervied from some of the first films ever created by black women.</p>
+                        <p>Here are some of the films we studied. Much of the research that my classmates and I conducted is dervied from these films and more, all created by black women.</p>
                     </div>
 
                     <div className="row">

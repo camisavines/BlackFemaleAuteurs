@@ -5,12 +5,17 @@
     justify-content: center;
 }
 
-.bg-hero {
-    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,0.3), rgba(0,0,0,.1)), url("../images/Daughters_of.jpeg");
-    /* background-image: url("../images/Daughters_of.jpeg"); */
-    /* filter: grayscale(150%); */
-    background-position: center;
+.home.hero .heroimage {
+    height: 70vh;
+    background-image: url("../images/Daughters_of.jpeg");
     background-size: cover;
-    margin-top: -8vh;
-    color: white;
+    background-position: center;
+
+}
+
+.film-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }

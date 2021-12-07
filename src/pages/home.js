@@ -5,24 +5,29 @@ import React from "react";
 import SholaLynch from "../components/research/SholaLynch";
 import PTab from "../components/paragraphTab";
 import * as THIS from "../data/researchOutline";
+import heroimage from "../images/Daughters_of.jpeg";
 import "../styles/home.css";
 import "../styles/timeline.css";
 
 const Home = () => {
     return (
         <>
-            <section className="bg-hero">
-                <div className="container home hero">
-                    <div className="w-75">
-                        {/* <h1>Black Women, Resistance & Film</h1> */}
-                        <h1>Resistance of Hegemony: Mental Liberation by the Thrivingness and Prosperity of Black Female Auteurs</h1>
-                        <p>Camisa Vines</p>
-                        <p>December 14, 2021</p>
+            <section className="home hero py-5">
+                <div className="container">
+                    <h1>Resistance of Hegemony: Mental Liberation by the Thrivingness and Prosperity of Black Female Auteurs</h1>
+                    <p>Camisa Vines <br/> <small className="text-muted">December 14, 2021</small></p>
+                    <div className="heroimage" />
+
+                    <div className="py-5" style={{fontSize: "14pt"}}>
+                        <p>
+                            <PTab />{THIS.PURPOSE} 
+                            {THIS.CLAIM}
+                        </p>
                     </div>
                 </div>
             </section>
 
-{/* 
+
             <section>
                 <div className="container home hero">
                     <div className="w-75">
@@ -32,14 +37,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
- */}
 
-            {/* Purpose and Claim */}
-            <section style={{background: "white", minHeight: "80vh"}}>
-                <div className="container py-5">
-                    <p><PTab />{THIS.PURPOSE} <strong>{THIS.CLAIM}</strong></p>
-                </div>
-            </section>
 
 
             <section>
@@ -53,11 +51,12 @@ const Home = () => {
 
 
             {/* TIMELINE + RESEARCH */}
-            <div className="timeline px-4">
-                {/* <FreeAngela /> */}
-                {/* <BeyonceLemonade /> */}
-            </div>
-
+            {/* 
+                <div className="timeline px-4">
+                    <FreeAngela />
+                    <BeyonceLemonade />
+                </div> 
+            */}
         </>
     )
 

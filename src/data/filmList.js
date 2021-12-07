@@ -49,7 +49,7 @@ export const films = [
     },
     {
         poster: "https://m.media-amazon.com/images/M/MV5BZjZhMWU3ZTUtNDcwOC00NTM5LTljNmQtOGIwM2RmOWVhNzljXkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_.jpg",
-        auteur: "",
+        auteur: "Multiple Auteurs",
         title: "Vai",
         year: "2019"
     },
