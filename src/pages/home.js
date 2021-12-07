@@ -21,9 +21,10 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-
+            
+{/* 
             <section>
-                <div className="container home hero py-5">
+                <div className="container home hero">
                     <div className="w-75">
                         <h1>black female auteur</h1>
                         <p><em>/blak    ˈfēˌmāl    ōˈtər/ <br/>(noun)</em></p>
@@ -31,11 +32,11 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-
+ */}
 
             {/* Purpose and Claim */}
             <section style={{background: "white"}}>
-                <div className="container home hero py-5">
+                <div className="container home hero">
                     <p><PTab />{THIS.PURPOSE} <strong>{THIS.CLAIM}</strong></p>
                 </div>
             </section>
