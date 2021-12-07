@@ -1,11 +1,9 @@
 import React from "react";
 
-// import FreeAngela from "../components/research/FreeAngela";
-// import BeyonceLemonade from "../components/research/BeyonceLemonade";
+import BeyonceLemonade from "../components/research/BeyonceLemonade";
 import SholaLynch from "../components/research/SholaLynch";
-import PTab from "../components/paragraphTab";
+// import PTab from "../components/paragraphTab";
 import * as THIS from "../data/researchOutline";
-import heroimage from "../images/Daughters_of.jpeg";
 import "../styles/home.css";
 import "../styles/timeline.css";
 
@@ -20,7 +18,7 @@ const Home = () => {
 
                     <div className="py-5" style={{fontSize: "14pt"}}>
                         <p>
-                            <PTab />{THIS.PURPOSE} 
+                            {THIS.PURPOSE} 
                             {THIS.CLAIM}
                         </p>
                     </div>
@@ -43,6 +41,8 @@ const Home = () => {
             <section>
                 <div className="container">
                     <SholaLynch />
+                    <BeyonceLemonade />
+
                 </div>
             </section>
 
@@ -54,7 +54,6 @@ const Home = () => {
             {/* 
                 <div className="timeline px-4">
                     <FreeAngela />
-                    <BeyonceLemonade />
                 </div> 
             */}
         </>

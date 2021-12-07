@@ -10,17 +10,29 @@ const BeyonceLemonade = () => {
 
 
     return (
-        <div className="tl-item">
-            <div className="tl-dot b-primary"></div>
-            <div className="tl-content">
-                <h3>{TITLE}</h3>
-                <div>{AUTEUR}</div>
-                <div className="tl-date text-muted mt-1">{RELEASE_YEAR} • {FILM_TYPE} • {RUNTIME}</div>
+        <div style={{minHeight: "100vh"}}>
+            <div className="row home hero">
+                <div className="col-md-6 col-xl-6 film-title">
+                    <div className="w-100">
+                        <h2>{TITLE}</h2>
+                        <h5>{AUTEUR}</h5>
+                        <h6 className="text-muted mt-1">{RELEASE_YEAR} • {FILM_TYPE} • {RUNTIME}</h6>
+                    </div>
+                </div>
 
-
-
-
+                <div className="col-sm-6 col-xl-6 mt-4">
+                    {/* <img src="https://api.time.com/wp-content/uploads/2016/11/lemonade.jpeg?" width="100%" alt="" /> */}
+                    <img src="https://pyxis.nymag.com/v1/imgs/245/4b9/b4496eda47e6c7c641cc7fa774498cab82-25-beyonce-lemonade-cover.rsquare.w700.jpg" width="100%" alt="" />
+                </div>
             </div>
+
+
+            <div className="row py-5">
+                <div className="col-sm-12">
+
+                </div>
+            </div>
+
         </div>
     )
 }

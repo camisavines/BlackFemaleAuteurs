@@ -1,5 +1,4 @@
 import React from "react";
-import PTab from "../paragraphTab";
 
 
 const SholaLynch = () => {
@@ -10,8 +9,8 @@ const SholaLynch = () => {
     const RUNTIME = "1h 22m"
 
     return (
-        <div style={{minHeight: "100vh"}}>
-            <div className="row py-5">
+        <div style={{minHeight: "100vh", paddingBottom: "30vh"}}>
+            <div className="row home hero">
                 <div className="col-md-6 col-xl-8 film-title">
                     <div className="w-100">
                         <h2>{TITLE}</h2>
@@ -35,18 +34,13 @@ const SholaLynch = () => {
                         But it’s equally significant as a pointed act of retelling (Rapoid, NY Times). 
                     </p>
 
+                    <p>
+                        This film <em>is</em> resistance, entirely! Very clearly, this film confronts racism, patriarchy, the US prison system, and perhaps the indirect compliance of the US governement to maintain these systems.
+                    </p>
+
                 </div>
             </div>
             
-
-            {/* <div className="row">
-                <div className="col-sm-6 col-md-4 pb-5">
-                    <img src="https://m.media-amazon.com/images/I/41RM61QX2FL._AC_.jpg" width="100%" alt="" />            
-                </div>
-
-                <div className="col-sm-12 col-md-8">
-                </div>
-            </div> */}
         </div>
     )
 }
