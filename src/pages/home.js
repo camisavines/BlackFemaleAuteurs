@@ -12,21 +12,24 @@ const Home = () => {
         <>
             <section className="home hero py-5">
                 <div className="container">
-                    <h1>Resistance of Hegemony: Mental Liberation by the Thrivingness and Prosperity of Black Female Auteurs</h1>
+                    <h1>Resistance of Hegemony: Mental Liberation during the Renaissance of Black Female Auteurs</h1>
                     <p>Camisa Vines <br/> <small className="text-muted">December 14, 2021</small></p>
                     <div className="heroimage" />
 
-                    <div className="py-5" style={{fontSize: "14pt"}}>
+                    <div className="row py-5" style={{fontSize: "14pt"}}>
+                        <div className="col-lg-8">
                         <p>
-                            {THIS.PURPOSE} 
+                            <span class="first-letter">T</span>he {THIS.PURPOSE} 
                             {THIS.CLAIM}
                         </p>
+                        </div>
                     </div>
                 </div>
             </section>
 
 
             <section>
+                <hr/>
                 <div className="container home hero">
                     <div className="w-75">
                         <h1>black female auteur</h1>
@@ -34,6 +37,7 @@ const Home = () => {
                         <p>a <strong><em>black, female</em></strong> filmmaker whose personal influence and artistic control over a movie are so great that the filmmaker is regarded as the author of the movie.</p>
                     </div>
                 </div>
+                <hr/>
             </section>
 
 

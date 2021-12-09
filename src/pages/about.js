@@ -18,7 +18,7 @@ const About = () => {
 
 
                     <div className="row">
-                        <div className="col-sm-12 my-4">
+                        <div className="col-lg-10 my-4">
                             <h3>Course Description</h3>
                             <p>In recent years, #OscarsSoWhite has highlighted Hollywood’s lack of racial inclusivity, and the #MeToo movement has underscored the pervasiveness of sexual assault in the entertainment industry. Amidst these longstanding realities, however, Black women filmmakers have been bringing their confident and perceptive visions to the cinematic screen. Throughout the twentieth century, the Hollywood studio system emerged and evolved as a dominant force in world cinema. With increasing output in the late twentieth century, Black female auteurs managed to finance, shoot, and release their work independent of these big studios. Moreover, in recent decades, Black women filmmakers have found ways to thrive alongside the big picture system despite its culture of exclusion.</p>
                             <p>This course is a focused study of Black female auteurs in the United States. As a class, we will contemplate both the concept of the auteur in film history as well as the constraints of that approach to filmmaking. We will also examine how Black women filmmakers negotiate these challenges, and we will sample the range of expressive practices in Black women’s cinema. Screenings include early films such as the anthropological recordings of Zora Neale Hurston, iconic pictures by Kathleen Collins and Julie Dash, and twenty-first century films by Ava Duvernay, Janicza Bravo, and Numa Perrier.

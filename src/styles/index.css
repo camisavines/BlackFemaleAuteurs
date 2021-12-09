@@ -13,3 +13,13 @@ body {
     /* background-color: #A57A5A; */
     /* color: white; */
 }
+
+h1, h2, h3 {
+    /* font-family: 'Raleway', sans-serif; */
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-weight: 400; */
+}
+
+p {
+    font-family: 'IBM Plex Serif', serif;
+}

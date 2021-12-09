@@ -26,7 +26,7 @@ const SholaLynch = () => {
 
 
             <div className="row py-5">
-                <div className="col-sm-12">
+                <div className="col-lg-8">
                     <p>
                         Shola Lynch documents the events leading up to and surrounding the trial of Angela Davis against the United States governement. 
                         On trial for the murder of the serveral individuals during the Marin County Courthouse Takeover, Davis became an individual on the FBI’s Most Wanted list and an international beacon of counterculture radicalism and liberation for all oppressed groups. 
