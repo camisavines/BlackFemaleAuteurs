@@ -1,6 +1,8 @@
 
-const PTab = () => {
+export const PTab = () => {
     return <span>&ensp;&ensp;&ensp;&ensp;</span>
 }
 
-export default PTab
+export const ContentSeparator = () => {
+    return <>{"  "} • {"  "}</>
+}

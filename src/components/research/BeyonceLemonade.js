@@ -14,9 +14,11 @@ const BeyonceLemonade = () => {
             <div className="row home hero">
                 <div className="col-md-6 col-xl-6 film-title">
                     <div className="w-100">
-                        <h2>{TITLE}</h2>
-                        <h5>{AUTEUR}</h5>
-                        <h6 className="text-muted mt-1">{RELEASE_YEAR} • {FILM_TYPE} • {RUNTIME}</h6>
+                        <h3 className="m-0">{AUTEUR}</h3>
+                        <h1 className="my-5">{TITLE}</h1>
+                        <h5 className="text-muted mt-1">
+                            {RELEASE_YEAR} • {FILM_TYPE} • {RUNTIME}
+                        </h5>
                     </div>
                 </div>
 

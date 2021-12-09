@@ -6,6 +6,7 @@ import SholaLynch from "../components/research/SholaLynch";
 import * as THIS from "../data/researchOutline";
 
 import Tooltip from "../components/textTooltip";
+import hero from "../images/Daughters_of.jpeg";
 import "../styles/home.css";
 import "../styles/timeline.css";
 
@@ -16,9 +17,13 @@ const Home = () => {
                 <div className="container">
                     <h1>Resistance of Hegemony: Mental Liberation during the Renaissance of Black Female Auteurs</h1>
                     <p>Camisa Vines <br/> <small className="text-muted">December 14, 2021</small></p>
-                    <div className="heroimage" />
+                    {/* <div className="heroimage" /> */}
+                    <figure className="figure my-3">
+                        <img src={hero} className="figure-img img-fluid rounded" alt="Julie Dash 1991"/>
+                        <figcaption className="figure-caption text-right"><em>Daughters of the Dust (1991)</em> by Julie Dash</figcaption>
+                    </figure>
 
-                    <div className="row py-5" style={{fontSize: "14pt"}}>
+                    <div className="row py-5" style={{fontSize: "14pt", lineHeight:"3rem"}}>
                         <div className="col-lg-8">
                             <p>
                                 <span className="first-letter">T</span>he <Tooltip label="intersectionality" text={`
@@ -51,13 +56,11 @@ const Home = () => {
             <section>
                 <div className="container">
                     <SholaLynch />
+                    <hr/>
                     <BeyonceLemonade />
 
                 </div>
             </section>
-
-
-
 
 
             {/* TIMELINE + RESEARCH */}

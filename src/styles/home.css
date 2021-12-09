@@ -5,14 +5,6 @@
     justify-content: center;
 }
 
-.home.hero .heroimage {
-    height: 60vh;
-    background-image: url("../images/Daughters_of.jpeg");
-    background-size: cover;
-    background-position: center;
-
-}
-
 .film-title {
     display: flex;
     align-items: center;
@@ -34,13 +26,13 @@
 .tooltip-inner {
     background-color: #9e6b6b;
     color: white;
-    max-width: 100%;
-    padding: 10px 20px;
+    min-width: 10vw;
+    max-width: 100vw;
+    padding: 10px 20px 3px 20px;
     font-size: 12pt;
     text-align: left !important;
 }
 
 span.my-tooltip {
     border-bottom: 3px dotted #A57A5A !important;
-
 }
