@@ -1,12 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import * as ROUTES from "../constants/routes";
 
-
 const Navbar = () => {
-    console.log(window.location.pathname, ROUTES.HOME);
-
     return (
         <nav className="navbar navbar-expand-lg w-100 navbar-light" style={{fontSize: "9pt"}}>
         {/* <nav className="navbar navbar-expand-lg w-100 navbar-light" style={{fontSize: "10pt", backgroundColor: window.location.pathname === ROUTES.HOME ? "transparent" : "black"}}> */}

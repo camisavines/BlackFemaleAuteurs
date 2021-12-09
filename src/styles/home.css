@@ -22,5 +22,25 @@
 
 .first-letter {
     font-size: 200%;
-    /* line-height: 70px; */
+}
+
+/* Tooltips */
+.tooltip { pointer-events: none !important; }
+.tooltip.in { opacity: 1 !important;}
+
+.tooltip-arrow {
+    border-right-color: #9e6b6b !important;
+}
+.tooltip-inner {
+    background-color: #9e6b6b;
+    color: white;
+    max-width: 100%;
+    padding: 10px 20px;
+    font-size: 12pt;
+    text-align: left !important;
+}
+
+span.my-tooltip {
+    border-bottom: 3px dotted #A57A5A !important;
+
 }

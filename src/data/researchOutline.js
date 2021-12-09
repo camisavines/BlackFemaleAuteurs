@@ -1,5 +1,5 @@
 export const PURPOSE = `
-    intersectionality of black women makes them the most disrespected and unprotected persons in America. 
+    of black women makes them the most disrespected and unprotected persons in America. 
     In the film industry, there are also the most unsupported. 
     New research reveals the barriers that Black women in the TV and film industry face, including the lack of financial support 
     from major Hollywood studios, the opposition to expose the sociopolitical systems of racism, patriarchy, and homophobia, and 

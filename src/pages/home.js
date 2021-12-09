@@ -4,6 +4,8 @@ import BeyonceLemonade from "../components/research/BeyonceLemonade";
 import SholaLynch from "../components/research/SholaLynch";
 // import PTab from "../components/paragraphTab";
 import * as THIS from "../data/researchOutline";
+
+import Tooltip from "../components/textTooltip";
 import "../styles/home.css";
 import "../styles/timeline.css";
 
@@ -18,10 +20,14 @@ const Home = () => {
 
                     <div className="row py-5" style={{fontSize: "14pt"}}>
                         <div className="col-lg-8">
-                        <p>
-                            <span class="first-letter">T</span>he {THIS.PURPOSE} 
-                            {THIS.CLAIM}
-                        </p>
+                            <p>
+                                <span className="first-letter">T</span>he <Tooltip label="intersectionality" text={`
+                                    <p>the interconnected nature of social categorizations such as race, class, and gender as they apply to a given individual or group, regarded as creating overlapping and interdependent systems of discrimination or disadvantage.</p>`
+                                } /> 
+                                {THIS.PURPOSE} 
+                                {THIS.CLAIM}
+                            </p>
+                            
                         </div>
                     </div>
                 </div>
