@@ -6,7 +6,7 @@ import takeover1 from "../../images/takeover1.jpeg"
 import takeover2 from "../../images/takeover2.jpeg"
 
 const SholaLynch = () => {
-    const TITLE = "Free Angela Davis and All Political Prisoners";
+    const TITLE = "FREE ANGELA DAVIS AND ALL POLITICAL PRISONERS";
     const AUTEUR = "Shola Lynch";
     const RELEASE_YEAR = "2013";
     const FILM_TYPE = "Documentary"
@@ -16,8 +16,8 @@ const SholaLynch = () => {
         <div style={{minHeight: "100vh", paddingBottom: "40vh"}}>
             <div className="row home hero">
                 <div className="col-md-6 col-xl-8 film-title">
-                    <div className="w-100">
-                        <h3 className="text-muted m-0">{AUTEUR}</h3>
+                    <div className="w-100 pr-5">
+                        <h3 className="m-0">{AUTEUR}</h3>
                         <h1 className="my-5"><em>{TITLE}</em></h1>
                         <h5 className="text-muted m-0">
                             {RELEASE_YEAR} • {FILM_TYPE} • {RUNTIME}
@@ -30,11 +30,13 @@ const SholaLynch = () => {
                 </div>
             </div>
 
-            {/* Body Contetn */}
+
+
+            {/* Body Content */}
             <div className="row py-5" style={{fontSize: "12pt", lineHeight:"3rem"}}>
                 <div className="col-lg-8">
                     <p>
-                        This film <em>is</em> resistance, entirely! 
+                        <span className="first-letter">T</span>his film <em>is</em> resistance, entirely! 
                         It clearly confronts racism, patriarchy, the US prison system, and perhaps the
                         <Tooltip label="indirect compliance of the US government to maintain these systems" text="<p className='m-0'>More on this later. Keep Reading!</p>"/>.
                     </p>

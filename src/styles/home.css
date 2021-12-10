@@ -9,12 +9,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
-.first-letter {
-    font-size: 200%;
+.film-title h1 {
+    font-weight: 900;
 }
+
+.first-letter { font-size: 200%; }
 
 /* Tooltips */
 .tooltip { pointer-events: none !important;}

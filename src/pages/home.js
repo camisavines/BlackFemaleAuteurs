@@ -83,19 +83,9 @@ const Home = () => {
             <section>
                 <div className="container">
                     <SholaLynch />
-                    <hr/>
                     <BeyonceLemonade />
-
                 </div>
             </section>
-
-
-            {/* TIMELINE + RESEARCH */}
-            {/* 
-                <div className="timeline px-4">
-                    <FreeAngela />
-                </div> 
-            */}
         </>
     )
 
