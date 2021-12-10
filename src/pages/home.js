@@ -25,7 +25,7 @@ const Home = () => {
                         <div className="col-lg-8">
                             <p>
                                 <span className="first-letter">T</span>he 
-                                <Tooltip label=" intersectionality " text={`
+                                <Tooltip label="intersectionality" text={`
                                     <p>
                                         the interconnected nature of social categorizations such as race, class, 
                                         and gender as they apply to a given individual or group, regarded as creating overlapping 
