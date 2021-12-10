@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/black-female-auteurs/static/css/main.ea6450a5.chunk.css",
-    "main.js": "/black-female-auteurs/static/js/main.da4fc092.chunk.js",
-    "main.js.map": "/black-female-auteurs/static/js/main.da4fc092.chunk.js.map",
+    "main.css": "/black-female-auteurs/static/css/main.4a3e7a19.chunk.css",
+    "main.js": "/black-female-auteurs/static/js/main.316ea23a.chunk.js",
+    "main.js.map": "/black-female-auteurs/static/js/main.316ea23a.chunk.js.map",
     "runtime-main.js": "/black-female-auteurs/static/js/runtime-main.f61de840.js",
     "runtime-main.js.map": "/black-female-auteurs/static/js/runtime-main.f61de840.js.map",
     "static/js/2.b419977c.chunk.js": "/black-female-auteurs/static/js/2.b419977c.chunk.js",
     "static/js/2.b419977c.chunk.js.map": "/black-female-auteurs/static/js/2.b419977c.chunk.js.map",
     "index.html": "/black-female-auteurs/index.html",
-    "static/css/main.ea6450a5.chunk.css.map": "/black-female-auteurs/static/css/main.ea6450a5.chunk.css.map",
+    "static/css/main.4a3e7a19.chunk.css.map": "/black-female-auteurs/static/css/main.4a3e7a19.chunk.css.map",
     "static/js/2.b419977c.chunk.js.LICENSE.txt": "/black-female-auteurs/static/js/2.b419977c.chunk.js.LICENSE.txt",
     "static/media/Daughters_of.d700d950.jpeg": "/black-female-auteurs/static/media/Daughters_of.d700d950.jpeg",
     "static/media/FreeAngelaDavis.ec9166df.jpeg": "/black-female-auteurs/static/media/FreeAngelaDavis.ec9166df.jpeg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.f61de840.js",
     "static/js/2.b419977c.chunk.js",
-    "static/css/main.ea6450a5.chunk.css",
-    "static/js/main.da4fc092.chunk.js"
+    "static/css/main.4a3e7a19.chunk.css",
+    "static/js/main.316ea23a.chunk.js"
   ]
 }
