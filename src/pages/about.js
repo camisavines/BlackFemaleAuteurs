@@ -29,6 +29,8 @@ const About = () => {
                                     <li>Enable an appreciation of film as a visual and narrative artform.</li>
                                 </ul>
                             </p>
+
+                            <p className="text-muted"><em>From the course description provided by Dr. Michael Montesano, MSCH-F 375: Black Female Auteurs, Fall 2021, Indiana University-Bloomington.</em></p>
                         </div>
                     </div>
                 </div>

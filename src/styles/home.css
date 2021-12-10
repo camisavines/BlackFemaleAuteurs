@@ -18,7 +18,7 @@
 
 /* Tooltips */
 .tooltip { pointer-events: none !important; }
-.tooltip.in { opacity: 1 !important;}
+.tooltip.in { opacity: 1 !important; pointer-events: none !important; }
 
 .tooltip-arrow {
     border-right-color: #9e6b6b !important;
@@ -26,8 +26,8 @@
 .tooltip-inner {
     background-color: #9e6b6b;
     color: white;
-    min-width: 10vw;
-    max-width: 100vw;
+    min-width: 15vw;
+    max-width: 100%;
     padding: 10px 20px 3px 20px;
     font-size: 12pt;
     text-align: left !important;
