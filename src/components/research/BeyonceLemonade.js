@@ -1,8 +1,11 @@
 import React from 'react';
 import Tooltip from '../textTooltip';
 
-import launchicon from "../../images/launch_icon.svg"
+
 import holdup from "../../images/Lemonade/holdup.jpeg";
+import drowning1 from "../../images/Lemonade/drowning1.gif";
+import floodgates from "../../images/Lemonade/floodgate.gif";
+
 
 
 const BeyonceLemonade = () => {
@@ -53,7 +56,8 @@ const BeyonceLemonade = () => {
                         Only when I saw that clearly was I able to resolve those conflicts in my own relationship. 
                         Connecting to the past and knowing our history makes us both bruised and beautiful”. 
                         In this, she acknowledges a struggle to liberate herself from prevailing ideologies of ethnic and cultural inferiority. 
-                        With this project, she provides a captivating way for many black people, and especially black women, to unlearn and mentally overcome internal hatred and discrimination.
+                        With this project, she provides a captivating way for many black people, and especially black women, to unlearn and mentally overcome 
+                        internal hatred and discrimination regarding love, sex, and beauty.
                     </p>
                     <p>
                         In an interview with Elle, published on April 4, 2016, Beyoncé said, "
@@ -76,6 +80,47 @@ const BeyonceLemonade = () => {
 
                     <div className="embed-responsive embed-responsive-16by9">
                         <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/PeonBmeFR8o" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div className='col-lg-8 my-5'>
+                    <figure className="p-4">
+                        <blockquote className="blockquote">
+                            <p className="pb-2">
+                                I tried to change <br/>
+                                Closed my mouth more <br/>
+                                Tried to be soft, prettier <br/>
+                                Less... awake <br/>
+                                Fasted for 60 days <br/>
+                                Wore white <br/>
+                                Abstained from mirrors <br/>
+                                Abstained from sex <br/>
+                                Slowly did not speak another word <br/>
+                                ...
+                            </p>
+                        </blockquote>
+                        <figcaption className="blockquote-footer mb-0">Warsan Shire</figcaption>
+                    </figure>
+
+                    <p>
+                        The opening poem is called ‘Denial', written by Warsan Shire. 
+                        In it, Beyoncé emphasizes the lengths she went in order to save her 
+                        <Tooltip label="marriage." text={`
+                            <p>because of her <em>husband's infidelity</em>.</p>
+                            <p>And because of the phallocentrism ingrained within our society, the burden to save relationships is often placed on women.</p>
+                        `}/> 
+                        The author of the poem, Shire, is alluding to the Islamic religion, during Ramadan, to cleanse one's self of sin and become pure.
+                        Beyoncé draws parallels throughout the poem alluding to the struggle of black women to be desired both physically and emotionally, 
+                        due to the harmful stereotypes about black women that are deeply rooted in early Hollywood cinema.
+                    </p>
+                    <p>
+                        Notice the imagery while this poem is being recited. 
+                        The symbolism of drowning is representative of the suffocating expectations for 
+                        <Tooltip label="black women." text={`<p>in society <br/>in relationships <br/>in the media <br/>in the family <br/>in the workplace <br/> etc.<p>`}/>
+                        But then! She opens the floodgates, asserting that no black woman should bear the burden of others and the <Tooltip label="joy that comes with that liberation." text={`<p>Period, sis.</p>`}/>
+                    </p>
+                    <div className='my-5'>
+                        <img src={floodgates} width="100%"/>
                     </div>
                 </div>
             </div>
@@ -101,6 +146,32 @@ const BeyonceLemonade = () => {
                     <div className="embed-responsive embed-responsive-16by9">
                         <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/gM89Q5Eng_M" allowfullscreen></iframe>
                     </div>
+                </div>
+
+                <div className='col-lg-8 my-5'>
+                    <h3>Black love is revolutionary! It is the highest form of resistance in the United States!</h3>
+                    <p>On June 1, 2017, the Huff Post's Black Voices column publishes:</p>
+
+                    <figure className="p-4">
+                        <blockquote className="blockquote">
+                            <p className="pb-2">
+                                Black love literally shouldn’t exist in America, in any form. Familial, heterosexual, trans, queer, community, etc. Everything was done to prevent it. It is the purest form and most glaring example in American History to me, of resistance. The structure of slavery was such that love, as well as many other ideologies, would not develop. Families were separated several times over, mothers and fathers were killed, men, women, and children raped. Marriage was forbidden among blacks unless sponsored by a white person, and even then, that was only in certain states.
+                            </p>
+                            <p>
+                            White supremacy tried to kill the notion of black love, because it was a threat to oppression. White supremacy did its best to make “black love” an oxymoron. A figment of our imagination. For many, it still is.
+                            </p>
+                        </blockquote>
+                        <figcaption className="blockquote-footer mb-0">Reginald Cunningham, Contributor, Writer. Photographer. Creator. Influencer.</figcaption>
+                    </figure>
+
+                    <p>
+                        There is such a beautiful representation of black love, in every form, present in this video!
+                        And it inspires the learning of black history and the unlearning that black love only exists within the ideologies of white supremacy. 
+                        Beyoncé uses Warsan Shire’s ‘Redemption’ to express the survival of black people and to claim optimism, prosperity, and healing.
+                    </p>
+                    <p>
+                    Within the 65-minute visual album, “Redemption” is the last chapter, following Intuition, Denial, Anger, Apathy, Emptiness, Accountability, Reformation, Forgiveness, Resurrection, and Hope. It is in this chapter that the audience understands that true liberation comes from within. Somehow, against all odds, black people have managed to survive. In the clip, the black-and-white switches abruptly to color, which, at this point in the film, we see a shift in imagery from what feels slow and careful to vibrant freedom. We see women gathering, working, planting and harvesting.
+                    </p>
                 </div>
             </div>
 

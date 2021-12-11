@@ -39,3 +39,8 @@ span.my-tooltip {
     margin-left: 5px;
     margin-right: 5px;
 }
+
+.blockquote p {
+    font-size: 11pt;
+    line-height: 2rem;
+}
