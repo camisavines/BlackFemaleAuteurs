@@ -67,7 +67,6 @@ const Home = () => {
 
 
             <section>
-                <hr/>
                 <div className="container home hero">
                     <div className="w-75">
                         <h1>black female auteur</h1>
@@ -75,7 +74,6 @@ const Home = () => {
                         <p>a <strong><em>black, female</em></strong> filmmaker whose personal influence and artistic control over a movie are so great that the filmmaker is regarded as the author of the movie.</p>
                     </div>
                 </div>
-                <hr/>
             </section>
 
 

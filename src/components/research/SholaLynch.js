@@ -1,9 +1,9 @@
 import React from "react";
 import Tooltip from "../textTooltip";
-import angeladavis from "../../images/FreeAngelaDavis.jpeg";
-import soledadbrothers from "../../images/soledadbrothers.jpeg";
-import takeover1 from "../../images/takeover1.jpeg"
-import takeover2 from "../../images/takeover2.jpeg"
+import angeladavis from "../../images/SholaLynch/FreeAngelaDavis.jpeg";
+import soledadbrothers from "../../images/SholaLynch/soledadbrothers.jpeg";
+import takeover1 from "../../images/SholaLynch/takeover1.jpeg"
+import takeover2 from "../../images/SholaLynch/takeover2.jpeg"
 
 const SholaLynch = () => {
     const TITLE = "FREE ANGELA DAVIS AND ALL POLITICAL PRISONERS";
@@ -13,10 +13,10 @@ const SholaLynch = () => {
     const RUNTIME = "1h 22m"
 
     return (
-        <div style={{minHeight: "100vh", paddingBottom: "40vh"}}>
+        <div style={{minHeight: "100vh", paddingBottom: "30vh"}}>
             <div className="row home hero">
-                <div className="col-md-6 col-xl-8 film-title">
-                    <div className="w-100 pr-5">
+                <div className="col-md-6 film-title">
+                    <div className="w-100">
                         <h3 className="m-0">{AUTEUR}</h3>
                         <h1 className="my-5"><em>{TITLE}</em></h1>
                         <h5 className="text-muted m-0">
@@ -25,7 +25,7 @@ const SholaLynch = () => {
                     </div>
                 </div>
 
-                <div className="col-sm-6 col-xl-4 mt-4">
+                <div className="col-sm-6 mt-4">
                     <img src="https://m.media-amazon.com/images/I/41RM61QX2FL._AC_.jpg" width="100%" alt="" />
                 </div>
             </div>
