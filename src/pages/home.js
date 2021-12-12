@@ -3,6 +3,7 @@ import React from "react";
 import SholaLynch from "../components/research/SholaLynch";
 import BeyonceLemonade from "../components/research/BeyonceLemonade";
 import ReginaKing  from "../components/research/ReginaKing";
+import StellaMeghie from "../components/research/StellaMeghie";
 
 import Tooltip from "../components/textTooltip";
 import hero from "../images/Daughters_of.jpeg";
@@ -82,8 +83,9 @@ const Home = () => {
             <section>
                 <div className="container">
                     <SholaLynch />
-                    <BeyonceLemonade />
                     <ReginaKing />
+                    <StellaMeghie />
+                    <BeyonceLemonade />
                 </div>
             </section>
         </>

@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-sm w-100 navbar-light" style={{fontSize: "9pt"}}>
         {/* <nav className="navbar navbar-expand-lg w-100 navbar-light" style={{fontSize: "10pt", backgroundColor: window.location.pathname === ROUTES.HOME ? "transparent" : "black"}}> */}
-            <Link className="navbar-brand" to={ROUTES.HOME}>BFA</Link>
+            <Link className="navbar-brand m-0" to={ROUTES.HOME}>BFA</Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
@@ -15,6 +15,9 @@ const Navbar = () => {
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item">
                         <Link className="nav-link" to={ROUTES.ABOUT}>About</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to={ROUTES.AUTEURS}>Auteurs</Link>
                     </li>
                     {/* <li className="nav-item">
                         <Link className="nav-link" to={ROUTES.CLASSMATES}>Classmates</Link>

@@ -150,7 +150,7 @@ export const favorites = [
 
 export const auteurs = [
     {
-        image: "",
+        image: "https://kcfaa.org/wp-content/uploads/2017/10/DebbieAllenIntensity_Cropped.jpg",
         auteur: "Debbie Allen",
         films: [
             "The Old Settler (2001)",
