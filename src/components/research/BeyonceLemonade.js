@@ -1,11 +1,7 @@
 import React from 'react';
 import Tooltip from '../textTooltip';
 
-
-import holdup from "../../images/Lemonade/holdup.jpeg";
-import drowning1 from "../../images/Lemonade/drowning1.gif";
 import floodgates from "../../images/Lemonade/floodgate.gif";
-
 
 
 const BeyonceLemonade = () => {
@@ -79,7 +75,7 @@ const BeyonceLemonade = () => {
                     <h1 style={{fontWeight: "900"}}>HOLD UP</h1>
 
                     <div className="embed-responsive embed-responsive-16by9">
-                        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/PeonBmeFR8o" allowfullscreen></iframe>
+                        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/PeonBmeFR8o" title="HOLD UP" allowfullscreen></iframe>
                     </div>
                 </div>
 
@@ -120,7 +116,7 @@ const BeyonceLemonade = () => {
                         But then! She opens the floodgates, asserting that no black woman should bear the burden of others and the <Tooltip label="joy that comes with that liberation." text={`<p>Period, sis.</p>`}/>
                     </p>
                     <div className='my-5'>
-                        <img src={floodgates} width="100%"/>
+                        <img src={floodgates} width="100%" alt="drowning gif" />
                     </div>
                 </div>
             </div>
@@ -132,7 +128,7 @@ const BeyonceLemonade = () => {
                     <h2 style={{fontWeight: "900"}}>SORRY</h2>
 
                     <div className="embed-responsive embed-responsive-16by9">
-                        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/QxsmWxxouIM" allowfullscreen></iframe>
+                        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/QxsmWxxouIM" title="SORRY" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -144,7 +140,7 @@ const BeyonceLemonade = () => {
                     <h2 style={{fontWeight: "900"}}>ALL NIGHT</h2>
 
                     <div className="embed-responsive embed-responsive-16by9">
-                        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/gM89Q5Eng_M" allowfullscreen></iframe>
+                        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/gM89Q5Eng_M" title="ALL NIGHT" allowfullscreen></iframe>
                     </div>
                 </div>
 
@@ -182,7 +178,7 @@ const BeyonceLemonade = () => {
                     <h2 style={{fontWeight: "900"}}>FORMATION</h2>
 
                     <div className="embed-responsive embed-responsive-16by9">
-                        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/WDZJPJV__bQ" allowfullscreen></iframe>
+                        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/WDZJPJV__bQ" title="FORMATION" allowfullscreen></iframe>
                     </div>
                 </div>
 

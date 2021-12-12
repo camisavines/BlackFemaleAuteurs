@@ -2,6 +2,7 @@ import React from "react";
 
 import SholaLynch from "../components/research/SholaLynch";
 import BeyonceLemonade from "../components/research/BeyonceLemonade";
+import ReginaKing  from "../components/research/ReginaKing";
 
 import Tooltip from "../components/textTooltip";
 import hero from "../images/Daughters_of.jpeg";
@@ -21,7 +22,7 @@ const Home = () => {
                         <figcaption className="figure-caption text-right"><em>Daughters of the Dust (1991)</em> by Julie Dash</figcaption>
                     </figure>
 
-                    <div className="row py-5" style={{fontSize: "14pt", lineHeight:"3rem"}}>
+                    <div className="row py-5" style={{fontSize: "12pt", lineHeight:"3rem"}}>
                         <div className="col-lg-8">
                             <p>
                                 <span className="first-letter">T</span>he 
@@ -82,6 +83,7 @@ const Home = () => {
                 <div className="container">
                     <SholaLynch />
                     <BeyonceLemonade />
+                    <ReginaKing />
                 </div>
             </section>
         </>

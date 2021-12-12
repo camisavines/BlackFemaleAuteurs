@@ -44,3 +44,8 @@ span.my-tooltip {
     font-size: 11pt;
     line-height: 2rem;
 }
+
+.about p {
+    /* font-size: 12pt; */
+    line-height: 3rem;
+}
