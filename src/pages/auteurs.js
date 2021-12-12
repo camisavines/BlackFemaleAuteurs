@@ -1,9 +1,17 @@
 import React from "react";
-import { auteurs } from "../data/filmList";
+import { auteurs } from "../data/auteurs";
 
 const Auteurs = () => {
     return (
         <section>
+            <section style={{backgroundColor: "#f5f5f5"}}>
+                <div className="container py-5 mb-5">
+                        <h1>black female auteur</h1>
+                        <p><em>/blak    ˈfēˌmāl    ōˈtər/ <br/>(noun)</em></p>
+                        <p>a <strong><em>black, female</em></strong> filmmaker whose personal influence and artistic control over a movie are so great that the filmmaker is regarded as the author of the movie.</p>
+                </div>
+            </section>
+
             <div className="container">
                 <h1>Auteurs</h1>
                 <p>A list of many (not all) black female auteurs and their works.</p>
