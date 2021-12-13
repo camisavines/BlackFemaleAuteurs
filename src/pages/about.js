@@ -47,7 +47,7 @@ const About = () => {
                         {
                             films.map((movie) => {
                                 return (
-                                    <div className="col-6 col-md-4 col-lg-3 col-xl-2 text-center">
+                                    <div className="col-6 col-md-4 col-lg-3 col-xl-2 text-center my-4">
                                         <div className="w-100 mb-3" style={{
                                             backgroundImage: `url(${movie.poster})`, 
                                             paddingTop: "150%", 
@@ -74,7 +74,7 @@ const About = () => {
                         {
                             favorites.map((movie) => {
                                 return (
-                                    <div className="col-6 col-md-4 col-lg-3 col-xl-2 text-center">
+                                    <div className="col-6 col-md-4 col-lg-3 col-xl-2 text-center my-4">
                                         <div className="w-100 mb-3" style={{
                                             backgroundImage: `url(${movie.poster})`, 
                                             paddingTop: "150%", 

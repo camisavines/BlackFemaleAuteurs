@@ -82,8 +82,8 @@ const Home = () => {
 
             <section>
                 <div className="container">
-                    <SholaLynch />
-                    <ReginaKing />
+                    {/* <SholaLynch /> */}
+                    {/* <ReginaKing /> */}
                     <StellaMeghie />
                     <BeyonceLemonade />
                 </div>

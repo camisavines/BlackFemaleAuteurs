@@ -34,7 +34,7 @@ const BeyonceLemonade = () => {
 
 
             
-            <div className="row py-5" style={{fontSize: "12pt", lineHeight:"3rem"}}>
+            <div className="row py-5 my-5" style={{fontSize: "12pt", lineHeight:"3rem"}}>
                 <div className="col-lg-8">
                     <p><span className="first-letter">Q</span>ueen Bey! You guys didn't honestly think I would skip over Beyoncé, did you? The creative genius! The Queen! Don't be silly.</p>
                     <p>
@@ -70,7 +70,7 @@ const BeyonceLemonade = () => {
             </div>
 
             {/* HOLD UP */}
-            <div className='row my-5 pb-5'>
+            <div className='row my-5 pb-5' style={{fontSize: "12pt", lineHeight:"3rem"}}>
                 <div className='col-12'>
                     <h1 style={{fontWeight: "900"}}>HOLD UP</h1>
 
@@ -123,7 +123,7 @@ const BeyonceLemonade = () => {
 
 
             {/* SORRY */}
-            <div className='row my-5 py-5'>
+            <div className='row my-5 py-5' style={{fontSize: "12pt", lineHeight:"3rem"}}>
                 <div className='col-12'>
                     <h2 style={{fontWeight: "900"}}>SORRY</h2>
 
@@ -135,7 +135,7 @@ const BeyonceLemonade = () => {
 
 
             {/* ALL NIGHT */}
-            <div className='row my-5 py-5'>
+            <div className='row my-5 py-5' style={{fontSize: "12pt", lineHeight:"3rem"}}>
                 <div className='col-12'>
                     <h2 style={{fontWeight: "900"}}>ALL NIGHT</h2>
 
@@ -173,7 +173,7 @@ const BeyonceLemonade = () => {
 
 
             {/* FORMATION */}
-            <div className='row my-5 py-5'>
+            <div className='row my-5 py-5' style={{fontSize: "12pt", lineHeight:"3rem"}}>
                 <div className='col-12'>
                     <h2 style={{fontWeight: "900"}}>FORMATION</h2>
 

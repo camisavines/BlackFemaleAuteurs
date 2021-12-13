@@ -6,7 +6,6 @@ import Home from "./pages/home";
 import About from "./pages/about";
 import Auteurs from "./pages/auteurs";
 // import Classmates from "./pages/classmates";
-// import Resources from "./pages/resources";
 
 // components
 import Navbar from "./components/navbar";
@@ -26,7 +25,6 @@ function App() {
       <Route path={ROUTES.ABOUT} component={About} />
       <Route path={ROUTES.AUTEURS} component={Auteurs} />
       {/* <Route path={ROUTES.CLASSMATES} component={Classmates} /> */}
-      {/* <Route path={ROUTES.RESOURCES} component={Resources} /> */}
       <Footer />
     </Router>
   );

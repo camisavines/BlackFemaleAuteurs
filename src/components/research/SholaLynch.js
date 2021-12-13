@@ -33,7 +33,7 @@ const SholaLynch = () => {
 
 
             {/* Body Content */}
-            <div className="row py-5" style={{fontSize: "12pt", lineHeight:"3rem"}}>
+            <div className="row py-5 my-5" style={{fontSize: "12pt", lineHeight:"3rem"}}>
                 <div className="col-lg-8">
                     <p>
                         <span className="first-letter">T</span>his film <em>is</em> resistance, entirely! 

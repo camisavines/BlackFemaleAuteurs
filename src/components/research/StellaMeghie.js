@@ -26,6 +26,18 @@ const StellaMeghie = () => {
                 </div>
             </div>
 
+            <div className='row py-5 my-5' style={{fontSize: "12pt", lineHeight:"3rem"}}>
+                <div className='col-lg-8'>
+                    <p>
+                        <span className='first-letter'>W</span>e are so here for black love!!!
+                        Black Love is a Revolutionary Act!
+                    </p>
+                    <p>
+
+                    </p>
+                </div>
+            </div>
+
 
 
             

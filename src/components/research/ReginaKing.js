@@ -26,6 +26,17 @@ const ReginaKing = () => {
                 </div>
             </div>
 
+            <div className='row my-5 py-5' style={{fontSize: "12pt", lineHeight:"3rem"}}>
+                <div className='col-lg-8'>
+                    <p>
+                        <span className="first-letter">D</span>id you know that 1 in 4 cowboys in America were black? 
+                        That number may be surprising since the majority of cowboys seen from Hollywood have looked like Clayton Moore, the white actor that plays The Lone Ranger. But many historians and movie critics argue that the character was largely inspired by the US marshal Bass Reeves, a Black man. Black people have been excluded from western representation for the same reason that they’ve been excluded from overall American history. And that’s because it does not fit the narrative that the true American is the white American (Attn). 
+                        
+                        Regina King corrects that narrative in the new western classic by peeking into the lives of forgotten legends. Referencing real, historical figures of western culture, such as Bill Pickett, Stagecoach Mary, and Nat Love, she presents the origination of cowboys in the United States.
+                    </p>
+                </div>
+            </div>
+
 
 
             
