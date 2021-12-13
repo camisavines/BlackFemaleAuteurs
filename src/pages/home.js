@@ -82,7 +82,7 @@ const Home = () => {
 
             <section>
                 <div className="container">
-                    {/* <SholaLynch /> */}
+                    <SholaLynch />
                     {/* <ReginaKing /> */}
                     <StellaMeghie />
                     <BeyonceLemonade />
