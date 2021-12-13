@@ -1,9 +1,10 @@
 import React from "react";
 
 import SholaLynch from "../components/research/SholaLynch";
-import BeyonceLemonade from "../components/research/BeyonceLemonade";
-import ReginaKing  from "../components/research/ReginaKing";
 import StellaMeghie from "../components/research/StellaMeghie";
+import MelinaMatsoukas from "../components/research/MelinaMatsoukas";
+import BeyonceLemonade from "../components/research/BeyonceLemonade";
+
 
 import Tooltip from "../components/textTooltip";
 import hero from "../images/Daughters_of.jpeg";
@@ -63,12 +64,24 @@ const Home = () => {
                             </p>
                             
                         </div>
+
+                        <div className="col-lg-8 py-5">
+                            <p>
+                                The following content contains analysis on the following films:
+                                <ol>
+                                    <li><b>Free Angela Davis and All Political Prisoners</b>, directed by Shola Lynch</li>
+                                    <li><b>Queen & Slim</b>, directed by Melina Matsoukas</li>
+                                    <li><b>The Photograph</b>, directed by Stella Meghie</li>
+                                    <li><b>Lemonade</b>, directed by Beyoncé</li>
+                                </ol>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
 
 
-            <section>
+            <section style={{backgroundColor: "#f5f5f5"}}>
                 <div className="container home hero">
                     <div className="w-75">
                         <h1>black female auteur</h1>
@@ -83,7 +96,7 @@ const Home = () => {
             <section>
                 <div className="container">
                     <SholaLynch />
-                    {/* <ReginaKing /> */}
+                    <MelinaMatsoukas />
                     <StellaMeghie />
                     <BeyonceLemonade />
                 </div>
