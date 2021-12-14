@@ -13,7 +13,7 @@ const BeyonceLemonade = () => {
 
 
     return (
-        <div style={{minHeight: "100vh", paddingBottom: "40vh"}}>
+        <div style={{minHeight: "100vh", paddingBottom: "20vh"}}>
             <div className="row home hero">
                 <div className="col-md-6 film-title">
                     <div className="w-100">
@@ -26,9 +26,7 @@ const BeyonceLemonade = () => {
                 </div>
 
                 <div className="col-sm-6 mt-4">
-                    {/* <img src="https://cdn.vox-cdn.com/thumbor/kt3wfD7uUnHFVzR1eL7VQfHhhdQ=/6x50:1240x873/1200x800/filters:focal(6x50:1240x873)/cdn.vox-cdn.com/uploads/chorus_image/image/49387275/Screen_Shot_2016-04-23_at_9.54.53_PM.0.0.png" width="100%" /> */}
                     <img src="https://api.time.com/wp-content/uploads/2016/11/lemonade.jpeg?" width="100%" alt="" />
-                    {/* <img src="https://pyxis.nymag.com/v1/imgs/245/4b9/b4496eda47e6c7c641cc7fa774498cab82-25-beyonce-lemonade-cover.rsquare.w700.jpg" width="100%" alt="" /> */}
                 </div>
             </div>
 
@@ -131,6 +129,11 @@ const BeyonceLemonade = () => {
                         <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/QxsmWxxouIM" title="SORRY" allowfullscreen></iframe>
                     </div>
                 </div>
+
+                <div className='col-lg-8 my-5'>
+                    <p>The biggest thing that is perhaps not so clear, but stands out to me, is the girls, dressed in tribal or indigenous makeup, on the school bus. I think that its a statement about the amount of missing indigenous women and girls, and the unequal opportunity for education between boys and girls in the US. </p>
+                    <p>Another thing that is so mentally liberating is the representation of hair in the video (and all these videos). None of the dancers have long, straight hair. They are all beautiful and rocks afros and braids.</p>
+                </div>
             </div>
 
 
@@ -146,27 +149,15 @@ const BeyonceLemonade = () => {
 
                 <div className='col-lg-8 my-5'>
                     <h3>Black love is revolutionary! It is the highest form of resistance in the United States!</h3>
-                    <p>On June 1, 2017, the Huff Post's Black Voices column publishes:</p>
-
-                    <figure className="p-4">
-                        <blockquote className="blockquote">
-                            <p className="pb-2">
-                                Black love literally shouldn’t exist in America, in any form. Familial, heterosexual, trans, queer, community, etc. Everything was done to prevent it. It is the purest form and most glaring example in American History to me, of resistance. The structure of slavery was such that love, as well as many other ideologies, would not develop. Families were separated several times over, mothers and fathers were killed, men, women, and children raped. Marriage was forbidden among blacks unless sponsored by a white person, and even then, that was only in certain states.
-                            </p>
-                            <p>
-                            White supremacy tried to kill the notion of black love, because it was a threat to oppression. White supremacy did its best to make “black love” an oxymoron. A figment of our imagination. For many, it still is.
-                            </p>
-                        </blockquote>
-                        <figcaption className="blockquote-footer mb-0">Reginald Cunningham, Contributor, Writer. Photographer. Creator. Influencer.</figcaption>
-                    </figure>
-
                     <p>
                         There is such a beautiful representation of black love, in every form, present in this video!
                         And it inspires the learning of black history and the unlearning that black love only exists within the ideologies of white supremacy. 
                         Beyoncé uses Warsan Shire’s ‘Redemption’ to express the survival of black people and to claim optimism, prosperity, and healing.
                     </p>
                     <p>
-                    Within the 65-minute visual album, “Redemption” is the last chapter, following Intuition, Denial, Anger, Apathy, Emptiness, Accountability, Reformation, Forgiveness, Resurrection, and Hope. It is in this chapter that the audience understands that true liberation comes from within. Somehow, against all odds, black people have managed to survive. In the clip, the black-and-white switches abruptly to color, which, at this point in the film, we see a shift in imagery from what feels slow and careful to vibrant freedom. We see women gathering, working, planting and harvesting.
+                        Within the 65-minute visual album, “Redemption” is the last chapter, following Intuition, Denial, Anger, Apathy, Emptiness, Accountability, Reformation, Forgiveness, Resurrection, and Hope. 
+                        It is in this chapter that the audience understands that true liberation comes from within. Somehow, against all odds, black people have managed to survive. 
+                        In the clip, the black-and-white switches abruptly to color, which, at this point in the film, we see a shift in imagery from what feels slow and careful to vibrant freedom. We see women gathering, working, planting and harvesting.
                     </p>
                 </div>
             </div>
@@ -184,8 +175,26 @@ const BeyonceLemonade = () => {
 
                 <div className='col-lg-8 my-5'>
                     <p>
-                        Featured director of “Formation” Melina Matsoukas states that Beyoncé explained the concepted to her stating that she wanted to “She wanted to show the historical impact of slavery on black love, and what it has done to the black family, and black men and women—how we're almost socialized not to be together”. 
+                        There is so much symbolism in this video and Beyoncé pays homage to the city of New Orleans, her parents’ hometown, creole culture, and to <Tooltip label="other artists" text={`<p>Messy Mya and Big Freedia</p>`}/> from the city.
                     </p>
+                    <ol>
+                        <li>Sitting on top of a sunken police car</li>
+                        <ul>
+                            <li>Not only is this a clear message of an antipolice movement, it also acknowledges the people and culture that survived hurricane Katrina.</li>
+                        </ul>
+                        <li>Imagery of BLM movement, young boy dressed in a black hoodie with his hands up.</li>
+                        <ul>
+                            <li>Referencing BLM movement and the criminalization of black boys from a young age</li>
+                        </ul>
+                        <li>Transgender hip hop artist, Big Freedia, featured on the song</li>
+                        <li>Black Cowboy seen riding a horse.</li>
+                        <li>Dancers are standing in an empty pool</li>
+                        <ul>
+                            <li>
+                            When black athletes were finally able to compete in collegiate sports, they were still discriminated against. At swimming meets, facilities that were also occupied by predominantly white teams, would drain the pool after having black students swim.
+                            </li>
+                        </ul>
+                    </ol>
                 </div>
             </div>
 

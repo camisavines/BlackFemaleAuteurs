@@ -139,25 +139,19 @@ const MelinaMatsoukas = () => {
 
                     <p>
                         While reading an article called “Colonialism: Why Write Back?” by George Sefa Dei and Chizoba Imoka, I came across the term “intellectual colonization”, which I thought was very similar to mental colonization. 
-                        In it, they explain that <em>“intellectual colonization”</em> is defined as “a sum of acquired habits, of uncontrollable behavior, a way of life, a way of thinking of which the whole constitutes a sort of “second nature” that really seems to have destroyed the original personality of the colonized” (p.8). Undergirding intellectual colonization is a “colonized complex that blemishes our evolution and even marks our reflexes” (p.8), to the extent that the colonized learn to proclaim their inferiority and justify their domination. In the colonized, intellectual colonization manifests like what Wa Thiong’o describes as a “cultural bomb”
+                        In it, they explain that 
                     </p>
                     
-                    {/* <figure className="p-3">
+                    <figure className="p-3">
                         <blockquote className="blockquote">
                             <p className="pb-2">
-                                The first form of policing in the South was known as slave patrol, which began in the colonies of Carolina in 1704. 
-                                The patrol was usually made up of three to six men riding horseback and carrying whips, ropes, and even guns.
-                            </p>
-                            <p>
-                                The group's main duties included chasing and hunting escaped slaves, releasing terror on slave communities to prevent riots, and to keep plantation owners in check, according to Ben Fountain's book, "Beautiful Country Burn Again."
-                            </p>
-                            <p>
-                                The slave patrols lasted until the Civil War and eventually gave way to the Ku Klux Klan.
+                                <em>“intellectual colonization”</em> is defines as “a sum of acquired habits, of uncontrollable behavior, a way of life, a way of thinking of which the whole constitutes a sort of ‘second nature’ that really seems to have destroyed the original personality of the colonized”. Undergirding intellectual colonization is a “colonized complex that blemishes our evolution and even marks our reflexes”, to the extent that the colonized learn to proclaim their inferiority and justify their domination. In the colonized, intellectual colonization manifests like what Wa Thiong’o describes as a “cultural bomb”
                             </p>
                         </blockquote>
-                        <figcaption className="blockquote-footer mb-0">Frank Olito, Insider, Updated Apr 26, 2021, 4:00 PM.</figcaption>
-                    </figure> */}
+                        <figcaption className="blockquote-footer mb-0">George Sefa Dei and Chizoba Imoka. “Colonialism: Why Write Back?”</figcaption>
+                    </figure>
 
+                    <p>No words after that. According to this, the greatest impact that colonialism had on the US is psychological, and this scene sparks the conversation to discuss deeply the steps needed to liberate those still feeling this influence.</p>
 
                 </div>
             </div>
@@ -179,19 +173,6 @@ const MelinaMatsoukas = () => {
                     <hr />
                 </div>
             </div>
-
-            <div className='row py-5' style={{fontSize: "12pt", lineHeight:"3rem"}}>
-                <div className='col-lg-8'>
-                    <h3>Unequal treatment</h3>
-
-                    <div className='my-5'>
-                        <img src={end} width="100%" alt="" />
-                    </div>
-
-
-                </div>
-            </div>
-
 
 
             <div className='row py-5' style={{fontSize: "12pt", lineHeight:"3rem"}}>
@@ -215,7 +196,14 @@ const MelinaMatsoukas = () => {
                     `}/> But let's talk about it.
                     </p>
 
+                    <p>
+                        Of course
+                    </p>
 
+
+                    <div className='my-5'>
+                        <img src={end} width="100%" alt="" />
+                    </div>
 
                 </div>
             </div>
