@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/black-female-auteurs/static/css/main.aba45369.chunk.css",
-    "main.js": "/black-female-auteurs/static/js/main.ccce95da.chunk.js",
-    "main.js.map": "/black-female-auteurs/static/js/main.ccce95da.chunk.js.map",
+    "main.css": "/black-female-auteurs/static/css/main.e66b8a50.chunk.css",
+    "main.js": "/black-female-auteurs/static/js/main.e3f285c2.chunk.js",
+    "main.js.map": "/black-female-auteurs/static/js/main.e3f285c2.chunk.js.map",
     "runtime-main.js": "/black-female-auteurs/static/js/runtime-main.f61de840.js",
     "runtime-main.js.map": "/black-female-auteurs/static/js/runtime-main.f61de840.js.map",
     "static/js/2.d59977b0.chunk.js": "/black-female-auteurs/static/js/2.d59977b0.chunk.js",
     "static/js/2.d59977b0.chunk.js.map": "/black-female-auteurs/static/js/2.d59977b0.chunk.js.map",
     "index.html": "/black-female-auteurs/index.html",
-    "static/css/main.aba45369.chunk.css.map": "/black-female-auteurs/static/css/main.aba45369.chunk.css.map",
+    "static/css/main.e66b8a50.chunk.css.map": "/black-female-auteurs/static/css/main.e66b8a50.chunk.css.map",
     "static/js/2.d59977b0.chunk.js.LICENSE.txt": "/black-female-auteurs/static/js/2.d59977b0.chunk.js.LICENSE.txt",
     "static/media/Daughters_of.d700d950.jpeg": "/black-female-auteurs/static/media/Daughters_of.d700d950.jpeg",
     "static/media/FreeAngelaDavis.ec9166df.jpeg": "/black-female-auteurs/static/media/FreeAngelaDavis.ec9166df.jpeg",
     "static/media/floodgate.a24a2afc.gif": "/black-female-auteurs/static/media/floodgate.a24a2afc.gif",
     "static/media/junior.3775d79c.jpeg": "/black-female-auteurs/static/media/junior.3775d79c.jpeg",
+    "static/media/lovescene.a8305f13.jpeg": "/black-female-auteurs/static/media/lovescene.a8305f13.jpeg",
+    "static/media/snitch.89978500.png": "/black-female-auteurs/static/media/snitch.89978500.png",
     "static/media/soledadbrothers.5cfb46d3.jpeg": "/black-female-auteurs/static/media/soledadbrothers.5cfb46d3.jpeg",
     "static/media/takeover1.3a8185ee.jpeg": "/black-female-auteurs/static/media/takeover1.3a8185ee.jpeg",
     "static/media/takeover2.f8693857.jpeg": "/black-female-auteurs/static/media/takeover2.f8693857.jpeg",
@@ -23,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.f61de840.js",
     "static/js/2.d59977b0.chunk.js",
-    "static/css/main.aba45369.chunk.css",
-    "static/js/main.ccce95da.chunk.js"
+    "static/css/main.e66b8a50.chunk.css",
+    "static/js/main.e3f285c2.chunk.js"
   ]
 }
