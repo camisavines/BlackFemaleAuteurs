@@ -135,10 +135,10 @@ export const favorites = [
         year: "2010"
     },
     {
-        poster: "https://m.media-amazon.com/images/M/MV5BNDJiZDliZDAtMjc5Yy00MzVhLThkY2MtNDYwNTQ2ZTM5MDcxXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_UY209_CR0,0,140,209_AL_.jpg",
-        auteur: "Gina Prince-Bythewood",
-        title: "The Old Guard",
-        year: "2020"
+        poster: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6323/6323551_sa.jpg",
+        auteur: "Troy Beyer",
+        title: "Love Don't Cost a Thang",
+        year: "2003"
     },
     {
         poster: "https://m.media-amazon.com/images/M/MV5BM2FkODZkYTktZjNjZC00NjQ3LTk3NDAtMTA3ZDJlMTM4ZTE2XkEyXkFqcGdeQXVyMjgwNDU2OTE@._V1_UY209_CR1,0,140,209_AL_.jpg",
@@ -146,4 +146,10 @@ export const favorites = [
         title: "Really Love",
         year: "2020"
     },
+    {
+        poster: "https://m.media-amazon.com/images/M/MV5BNDJiZDliZDAtMjc5Yy00MzVhLThkY2MtNDYwNTQ2ZTM5MDcxXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_UY209_CR0,0,140,209_AL_.jpg",
+        auteur: "Gina Prince-Bythewood",
+        title: "The Old Guard",
+        year: "2020"
+    }
 ]

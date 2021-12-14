@@ -4,6 +4,8 @@ import Tooltip from '../textTooltip';
 import trafficestop from "../../images/QueenSlim/trafficstop.jpeg";
 import junior from "../../images/QueenSlim/junior.jpeg";
 import end from "../../images/QueenSlim/unequaltreatment.jpeg";
+import snitch from "../../images/QueenSlim/snitch.png";
+import loves from "../../images/QueenSlim/lovescene.jpeg"
 
 
 const MelinaMatsoukas = () => {
@@ -98,25 +100,31 @@ const MelinaMatsoukas = () => {
                         Part of mental liberation is knowing the history of colonization and the current impact it has on <Tooltip label="all of us." text={`<p>Not just black people. or people of color.</p><p>ALL of us</p>`} /> 
                         Although we cannot expect one film to completely dismantle all of hegemonic power, we can hope the education of black experiences in the US will inspire the change needed to legalize black skin and promote the end of racial profiling. 
                     </p>
+                </div>
+            </div>
 
-                    <div className='my-5'>
-                        <hr/>
+
+            <div className='row my-5' style={{fontSize: "12pt", lineHeight:"3rem"}}>
+                <div className='col-lg-8 offset-lg-4'>
+                    <hr/>
+
+                    <div className='py-5'>
                         <p><b>Side Note:</b> More Resistance to Hegemony</p>
 
                         <div style={{backgroundColor: "#9e6b6b", color: "white", padding: "10px 20px 3px 20px"}}>
                             <p>
                                 One thing that I love and am always interested to see in films by <b>Lena Waithe</b> is the incluscion and visibility of the LGBTQ community on the big screen. 
-                                In many of their films, there is almost always a nod to this community, and rightfully so. In this film, we get the pleasure of seeing transgender actor Indya Moore.
+                                In many of their films, there is almost always a nod to this community, and rightfully so. In this film, we get the pleasure of seeing transgender actor Indya Moore play the character Goddess.
                             </p>
                             <p>This is also resistance! In American history, there is some erasure of every group, but the <b>intersectionality of being black, gay, <em>and</em> a woman</b>, amplifies this.</p>
-                            <p>So yeah, resistance! We love it! I couldn't let that disappear from my analysis.</p>
+                            <p>So yeah, resistance! We love it! I couldn't talk about resistance of this film and not mention that.</p>
                         </div>
-
-                        <hr />
                     </div>
 
+                    <hr />
                 </div>
             </div>
+
 
             <div className='row py-5' style={{fontSize: "12pt", lineHeight:"3rem"}}>
                 <div className='col-lg-8'>
@@ -126,7 +134,49 @@ const MelinaMatsoukas = () => {
                         <img src={junior} width="100%" alt="" />
                     </div>
 
+                    <p>In the film, while Junior is talking with Queen and Slim about their current situation, he explains that if he were in their shoes, he’d die right now and become ‘immortal’.</p>
+                    <p>And when I saw that for the first time, I realized how he made it seem like he was not only willing to die for the cause, but wanting to. And this is something that I think is not as widely discussed as many other issues facing black Americans because of how deeply ingrained it is within us.</p>
 
+                    <p>
+                        While reading an article called “Colonialism: Why Write Back?” by George Sefa Dei and Chizoba Imoka, I came across the term “intellectual colonization”, which I thought was very similar to mental colonization. 
+                        In it, they explain that <em>“intellectual colonization”</em> is defined as “a sum of acquired habits, of uncontrollable behavior, a way of life, a way of thinking of which the whole constitutes a sort of “second nature” that really seems to have destroyed the original personality of the colonized” (p.8). Undergirding intellectual colonization is a “colonized complex that blemishes our evolution and even marks our reflexes” (p.8), to the extent that the colonized learn to proclaim their inferiority and justify their domination. In the colonized, intellectual colonization manifests like what Wa Thiong’o describes as a “cultural bomb”
+                    </p>
+                    
+                    {/* <figure className="p-3">
+                        <blockquote className="blockquote">
+                            <p className="pb-2">
+                                The first form of policing in the South was known as slave patrol, which began in the colonies of Carolina in 1704. 
+                                The patrol was usually made up of three to six men riding horseback and carrying whips, ropes, and even guns.
+                            </p>
+                            <p>
+                                The group's main duties included chasing and hunting escaped slaves, releasing terror on slave communities to prevent riots, and to keep plantation owners in check, according to Ben Fountain's book, "Beautiful Country Burn Again."
+                            </p>
+                            <p>
+                                The slave patrols lasted until the Civil War and eventually gave way to the Ku Klux Klan.
+                            </p>
+                        </blockquote>
+                        <figcaption className="blockquote-footer mb-0">Frank Olito, Insider, Updated Apr 26, 2021, 4:00 PM.</figcaption>
+                    </figure> */}
+
+
+                </div>
+            </div>
+
+            <div className='row my-5' style={{fontSize: "12pt", lineHeight:"3rem"}}>
+                <div className='col-lg-8 offset-lg-4'>
+                    <hr/>
+
+                    <div className='py-5'>
+                        <p><b>Side Note #2:</b> More Resistance to Hegemony</p>
+
+                        <div style={{backgroundColor: "#9e6b6b", color: "white", padding: "10px 20px 3px 20px"}}>
+                            <p>Black Love is revolutionary!</p>
+                            <img src={loves} width="100%" alt="" className='mt-2 mb-3'/>
+                            <p>But I'll dive deep into this a bit later.</p>
+                        </div>
+                    </div>
+
+                    <hr />
                 </div>
             </div>
 
@@ -142,15 +192,17 @@ const MelinaMatsoukas = () => {
                 </div>
             </div>
 
+
+
             <div className='row py-5' style={{fontSize: "12pt", lineHeight:"3rem"}}>
                 <div className='col-lg-8'>
                     <h3>Mental impact of colonization that influences self-inflicted division amongst people of color</h3>
 
                     <div className='my-5'>
-                        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/queenandslimtraitor-1574805893.png?crop=0.797979797979798xw:1xh;center,top&resize=480:*" width="100%" alt="" />
+                        <img src={snitch} width="100%" alt="" />
                     </div>
 
-                    <p>Just in case you didn’t get the ending, that man snitched on them for money! <br/> 
+                    <p>Just in case you didn’t get the ending, dude snitched on them for money! <br/> 
                     <Tooltip label="Smh." text={`
                         <p>For the folks up there:</p>
                         <ul>
@@ -159,13 +211,11 @@ const MelinaMatsoukas = () => {
                             <li>OMFG = oh my f*cking gosh</li>
                             <li>MAD AF = mad as f*ck</li>
                         </ul>
-                        <p>The first time I saw this, I felt all of that!</p>
+                        <p>Understand how I felt the first time I saw this!</p>
                     `}/> But let's talk about it.
                     </p>
 
-                    <p>
 
-                    </p>
 
                 </div>
             </div>
