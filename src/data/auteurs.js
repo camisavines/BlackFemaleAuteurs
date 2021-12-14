@@ -64,110 +64,143 @@ export const auteurs = [
         ]
     },
     {
-        image: "",
-        auteur: "",
+        image: "https://m.media-amazon.com/images/M/MV5BZTI2Yjg3YjMtZjI5Ni00OWY5LThiMzktMjYwZDlhNjE0NTYwXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_UY180_UX180_AL_.jpg    ",
+        auteur: "Anike Bay",
         films: [
-            // Anike Bay
-            // Girls Like Us (2012) - feature film
-            // Girls Like Us... The Short Of It All! (2013) - short film
-            // Woman to Woman by Complete Love (2013) - music video
-            // The Pastor's Wife (2014) - short film
-            // Girls Like Us 2.0! The Hustle! The Game! (2014) - feature film
-            // "All They Know Is Shoot" by Tripp Sticc featuring Ricky Moncler (2016) - music video
+            "Girls Like Us (2012) - feature film",
+            "Girls Like Us... The Short Of It All! (2013) - short film",
+            "Woman to Woman by Complete Love (2013) - music video",
+            "The Pastor's Wife (2014) - short film",
+            "Girls Like Us 2.0! The Hustle! The Game! (2014) - feature film",
+            "'All They Know Is Shoot' by Tripp Sticc featuring Ricky Moncler (2016) - music video"
             
         ]
     },
-    // {
-    //     image: "",
-    //     auteur: "",
-    //     films: [
-            
-    //     ]
-    // },
-    // {
-    //     image: "",
-    //     auteur: "",
-    //     films: [
-            
-    //     ]
-    // }
+    {
+        image: "",
+        auteur: "Lillian Benson",
+        films: [
+            "Amen: The life and music of Jester Hairston (2015)",
+            "All Our Sons: Fallen Heroes of 9/11 (2003)",
+            "Cat Champion - Big Blue Marble series (1982)",
+            "Circus Rider - Big Blue Marble series (1980)"
+        ]
+    },
+    {
+        image: "",
+        auteur: "Radha Black",
+        films: [
+            "Sam Black: Speech Writer (2015) (TV Movie)",
+            "The Forty Year Old Version (2020)"
+        ]
+    },
+    {
+        image: "",
+        auteur: "Garrett Bradley",
+        films: [
+            "Sardines (2009) (short)",
+            "Black and Blue (2010) (short)",
+            "Below Dreams (2014)",
+            "Cover Me (2015) (short)",
+            "Like (2016) (documentary short)",
+            "The Earth Is Humming (2018) (documentary short)",
+            "Time (2020) (documentary)"
+        ]
+    },
+    {
+        image: "",
+        auteur: "Janicza Bravo",
+        films: [
+            "Lemon (2017)",
+            "Zola (2020)"
+        ]
+    },
+    {
+        image: "",
+        auteur: "Mara Brock Akil",
+        films: [
+            "Girlfriends (2000)",
+            "The Game (2006)",
+            "Being Mary Jane (2013)",
+            "Black Lightning (2018)"
+        ]
+    },
+    {
+        image: "",
+        auteur: "Gina Carey",
+        films: [
+            "Acts of Kindnes",   
+            "Rose England",
+            "The One Year Pact (2018)",
+            "The Assumptions (2017)",
+            "Aspire to Inspire (2016)",
+            "The Unexpected (2016)"
+        ]
+    },
+    {
+        image: "",
+        auteur: "Ayoka Chenzira",
+        films: [
+            "Syvilla: They Dance to Her Drum (1979)",
+            "Hair Piece: A Film for Nappyheaded People (1984)",
+            "Secret Sounds Screaming: The Sexual Abuse of Children (1986)",
+            "The Lure and the Lore (1988)",
+            "Zajota and the Boogie Spirit (1989)",
+            "Alma's Rainbow (1993)",
+            "My Own Tv (MOTV)",
+            "HERadventure (2014)"
+        ]
+    },
+    {
+        image: "",
+        auteur: "Chinonye Chukwu",
+        films: [
+            "Alaska Land (2012)",
+            "Clemency (2019)",
+            "A Taste of Honey (TBD)" 
+        ]
+    },
+    {
+        image: "",
+        auteur: "Michaela Coel",
+        films: [
+            "I May Destroy You (2020) (miniseries)"
+        ]
+    },
+    {
+        image: "",
+        auteur: "Kathleen Collins",
+        films: [
+            "Losing Ground (1982)"
+        ]
+    },
+    {
+        image: "",
+        auteur: "Nia DaCosta",
+        films: [
+            "Little Woods (2018)",
+            "Candyman (2021)",
+            "The Marvels (2022)"
+        ]
+    },
+    {
+        image: "",
+        auteur: "Julie Dash",
+        films: [
 
+            "Diary of an African Nun (1977)",
+            "Four Women (1978)",
+            "Illusions (1982)",
+            "Praise House (1991)",,
+            "Daughters of the Dust (1991) - the first film directed by an African-American woman with general theatrical release and distribution",
+            "SUBWAYStories: Tales from the Underground (1997)",
+            "Funny Valentines (1999)",
+            "Incognito (1999)",
+            "Love Song (2000)",
+            "The Rosa Parks Story (2002)",
+        ]
+    },
 
-
-// Lillian Benson
-// Amen: The life and music of Jester Hairston (2015)
-// All Our Sons: Fallen Heroes of 9/11 (2003)
-// Cat Champion - Big Blue Marble series (1982)
-// Circus Rider - Big Blue Marble series (1980)
-
-// Radha Black
-// Sam Black: Speech Writer (2015) (TV Movie)
-// The Forty Year Old Version (2020)
-
-// Garrett Bradley
-// Sardines (2009) (short)
-// Black and Blue (2010) (short)
-// Below Dreams (2014)
-// Cover Me (2015) (short)
-// Like (2016) (documentary short)
-// The Earth Is Humming (2018) (documentary short)
-// Time (2020) (documentary)
-
-// Janicza Bravo
-// Lemon (2017)
-// Zola (2020)
-
-// Mara Brock Akil
-// Girlfriends (2000)
-// The Game (2006)
-// Being Mary Jane (2013)
-// Black Lightning (2018)
-
-// Gina Carey
-// Acts of Kindness
-// Rose England
-// The One Year Pact (2018)
-// The Assumptions (2017)
-// Aspire to Inspire (2016)
-// The Unexpected (2016)
-
-// Ayoka Chenzira
-// Syvilla: They Dance to Her Drum (1979)
-// Hair Piece: A Film for Nappyheaded People (1984)
-// Secret Sounds Screaming: The Sexual Abuse of Children (1986)
-// The Lure and the Lore (1988)
-// Zajota and the Boogie Spirit (1989)
-// Alma's Rainbow (1993)
-// My Own Tv (MOTV)
-// HERadventure (2014)
-
-// Chinonye Chukwu
-// Alaska Land (2012)
-// Clemency (2019)
-// A Taste of Honey (TBD)
-
-// Michaela Coel
-// I May Destroy You (2020) (miniseries)
-
-// Kathleen Collins
-// Losing Ground (1982)
-
-// Nia DaCosta
-// Little Woods (2018)
-// Candyman (2021)
-// The Marvels (2022)
-
-// Julie Dash
-// Diary of an African Nun (1977)
-// Four Women (1978)
-// Illusions (1982)
-// Praise House (1991)
-// Daughters of the Dust (1991) - the first film directed by an African-American woman with general theatrical release and distribution
-// SUBWAYStories: Tales from the Underground (1997)
-// Funny Valentines (1999)
-// Incognito (1999)
-// Love Song (2000)
-// The Rosa Parks Story (2002)
 
 // Zeinabu Irene Davis
 // Filmstatement (1982)
@@ -198,27 +231,38 @@ export const auteurs = [
 // Where Children Play (2015)
 // Like Cotton Twines (2016)
 
-// Cheryl Dunye
-// Janine (1990)
-// She Don't Fade (1991)
-// Vanilla Sex (1992)
-// An Untitled Portrait (1993)
-// The Potluck and the Passion (1993)
-// Greetings from Africa (1994)
-// The Watermelon Woman (1996)
-// Stranger Inside (2001)
-// My Baby's Daddy (2004)
-// The Owls (2010)
-// Black Is Blue (2014)
 
-// Ava DuVernay
-// This Is the Life (2008)
-// I Will Follow (2010)
-// Middle of Nowhere (2012)
-// Selma (2014)
-// 13th (2016)
-// A Wrinkle in Time (2018)
-// When They See Us (2019) (limited series)
+    {
+        image: "",
+        auteur: "Cheryl Dunye",
+        films: [
+            "Janine (1990)",
+            "She Don't Fade (1991)",
+            "Vanilla Sex (1992)",
+            "An Untitled Portrait (1993)",
+            "The Potluck and the Passion (1993)",
+            "Greetings from Africa (1994)",
+            "The Watermelon Woman (1996)",
+            "Stranger Inside (2001)",
+            "My Baby's Daddy (2004)",
+            "The Owls (2010)",
+            "Black Is Blue (2014)"
+        ]
+    },
+    {
+        image: "",
+        auteur: "Ava DuVernay",
+        films: [
+            "I Will Follow (2010)",
+            "Middle of Nowhere (2012)",
+            "Selma (2014)",
+            "13th (2016)",
+            "A Wrinkle in Time (2018)",
+            "When They See Us (2019) (limited series)",
+            "This Is the Life (2008)"
+        ]
+    },    
+
 
 // Monica J Freeman
 // Valerie (1975)
@@ -243,14 +287,23 @@ export const auteurs = [
 // Rafiki (2018)
 // Once on This Island (TBA)
 
-// Regina King
-// One Night in Miami... (2020)
-
-// Beyonce Knowles-Carter
-// Life Is But a Dream (2013)
-// Lemonade (2016)
-// Homecoming: A Film by Beyoncé (2019)
-// Black Is King (2020)
+    {
+        image: "",
+        auteur: "Regina King",
+        films: [
+            "One Night in Miami... (2020)"
+        ]
+    },
+    {
+        image: "",
+        auteur: "Beyonce Knowles-Carter",
+        films: [
+            "Life Is But a Dream (2013)",
+            "Lemonade (2016)",
+            "Homecoming: A Film by Beyoncé (2019)",
+            "Black Is King (2020)"
+        ]
+    }
 
 // Alile Sharon Larkin
 // A Different Image (1982)
