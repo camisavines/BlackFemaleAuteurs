@@ -1,8 +1,11 @@
-
 export const PTab = () => {
-    return <span>&ensp;&ensp;&ensp;&ensp;</span>
-}
+  return <span>&ensp;&ensp;&ensp;&ensp;</span>;
+};
 
 export const ContentSeparator = () => {
-    return <>{"  "} • {"  "}</>
-}
+  return (
+    <>
+      {"  "} • {"  "}
+    </>
+  );
+};

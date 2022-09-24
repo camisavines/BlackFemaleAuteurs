@@ -4,7 +4,15 @@ import { auteurs } from "../data/auteurs";
 const Auteurs = () => {
   return (
     <section>
-      <section style={{ backgroundColor: "#f5f5f5", height: "50vh", display: "flex", justifyContent: "center", alignItems: "center" }}>
+      <section
+        style={{
+          backgroundColor: "#f5f5f5",
+          height: "50vh",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
         <div className="container py-5 mb-5">
           <h1>black female auteur</h1>
           <p>
@@ -32,7 +40,7 @@ const Auteurs = () => {
         <div className="row my-5">
           {auteurs.map((a) => {
             return (
-              <div className="col-sm-6 col-md-4 col-lg-3 h-100 my-5">
+              <div className="col-sm-6 col-md-4 my-5">
                 <div className="text-center justify-content-center">
                   <div
                     className="mb-4"
@@ -40,13 +48,10 @@ const Auteurs = () => {
                       backgroundImage: `url(${a.image})`,
                       backgroundSize: "cover",
                       backgroundPosition: "center",
-                      borderRadius: "50%",
-                      width: "60%",
-                      paddingTop: "60%",
-                      marginLeft: "25%",
+                      borderRadius: "10px",
+                      paddingTop: "100%",
                     }}
                   />
-
                   <p>
                     <b>{a.auteur}</b>
                   </p>
