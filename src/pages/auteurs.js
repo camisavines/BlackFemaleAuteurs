@@ -28,6 +28,7 @@ const Auteurs = () => {
       <div className="container">
         <h1>Auteurs</h1>
         <p>A list of many (not all) black female auteurs and their works.</p>
+        <p>See this and understand, there has never been a lack of talent.</p>
         <div className="row my-5">
           {auteurs.map((a) => {
             return (

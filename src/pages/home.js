@@ -102,10 +102,11 @@ const Home = () => {
                 </div>
             </section>
 
-            <section>
-                <div className="container mb-5" style={{fontSize: "12pt", lineHeight:"3rem"}}>
-                    <hr/>
-                    <div className="col-lg-12">
+
+            <section style={{backgroundColor: "#f5f5f5"}}>
+                <div className="container home hero">
+                    <div className="w-75">
+                        <h1>In Conclusion</h1>
                         <p>
                             The intersectionality of black women makes them the most disrespected and unprotected persons in America. 
                             In the film industry, there are also the most unsupported. 

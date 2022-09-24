@@ -19,6 +19,9 @@ const Navbar = () => {
                     <li className="nav-item">
                         <Link className="nav-link" to={ROUTES.AUTEURS}>Auteurs</Link>
                     </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to={ROUTES.ADORN}>Adornment</Link>
+                    </li>
                     {/* <li className="nav-item">
                         <Link className="nav-link" to={ROUTES.CLASSMATES}>Classmates</Link>
                     </li> */}

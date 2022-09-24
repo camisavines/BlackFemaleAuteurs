@@ -66,7 +66,7 @@ export const films = [
         year: "1997"
     },
     {
-        poster: "https://blackfilmcenterarchive.files.wordpress.com/2017/01/twiceasnice.jpg?w=640",
+        poster: "https://image.tmdb.org/t/p/w300/wy4fglMrrgN1NHaQqeliJeqUYUl.jpg",
         auteur: "Jessie Maple",
         title: "Twice as Nice",
         year: "1989"
@@ -151,5 +151,11 @@ export const favorites = [
         auteur: "Gina Prince-Bythewood",
         title: "The Old Guard",
         year: "2020"
+    },
+    {
+        poster: "https://www.filmsxpress.com/images/posters/890/woman.jfif",
+        auteur: "Gina Prince-Bythewood",
+        title: "The Woman King",
+        year: "2022"
     }
 ]

@@ -79,7 +79,7 @@ export const auteurs = [
     ],
   },
   {
-    image: "",
+    image: "http://womenfilmeditors.princeton.edu/wp-content/uploads/2020/01/Benson-Lillian_portrait.jpg",
     auteur: "Lillian Benson",
     films: [
       "Amen: The life and music of Jester Hairston (2015)",
@@ -89,7 +89,7 @@ export const auteurs = [
     ],
   },
   {
-    image: "",
+    image: "https://www.dailyherald.com/storyimage/DA/20201012/ENTLIFE/201019960/AR/0/AR-201019960.jpg&updated=202010160843&MaxW=900&maxH=900&noborder&Q=80",
     auteur: "Radha Black",
     films: [
       "Sam Black: Speech Writer (2015) (TV Movie)",
@@ -97,7 +97,7 @@ export const auteurs = [
     ],
   },
   {
-    image: "",
+    image: "https://images.wsj.net/im-238477/social",
     auteur: "Garrett Bradley",
     films: [
       "Sardines (2009) (short)",
@@ -110,12 +110,12 @@ export const auteurs = [
     ],
   },
   {
-    image: "",
+    image: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRUKlHygBLQZ1KOqRiDjmjufLkJpRfBb3lFenJTv8YPV3zIRA32",
     auteur: "Janicza Bravo",
     films: ["Lemon (2017)", "Zola (2020)"],
   },
   {
-    image: "",
+    image: "https://m.media-amazon.com/images/M/MV5BMDhkY2RhZWEtMWZmNS00MmJhLThhMWUtYzE3Y2Q0MjFkY2NjXkEyXkFqcGdeQXVyODAzMzY4MDc@._V1_.jpg",
     auteur: "Mara Brock Akil",
     films: [
       "Girlfriends (2000)",
@@ -125,7 +125,7 @@ export const auteurs = [
     ],
   },
   {
-    image: "",
+    image: "https://static.wixstatic.com/media/b2aa5d_e53160cbb3a84c11bad93fe01f48e2d1~mv2.jpg/v1/fill/w_1000,h_855,al_c,q_90,usm_0.66_1.00_0.01/b2aa5d_e53160cbb3a84c11bad93fe01f48e2d1~mv2.jpg",
     auteur: "Gina Carey",
     films: [
       "Acts of Kindnes",
@@ -137,7 +137,7 @@ export const auteurs = [
     ],
   },
   {
-    image: "",
+    image: "https://dd8thtkc05n1s.cloudfront.net/uploads/member/member_image/1427/Ayo2019.jpg",
     auteur: "Ayoka Chenzira",
     films: [
       "Syvilla: They Dance to Her Drum (1979)",
@@ -151,7 +151,7 @@ export const auteurs = [
     ],
   },
   {
-    image: "",
+    image: "http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcSRHZ1FcgeFZLHuOE0S7SbOD9IfpNa4L50HOMP4YkeA0iQ7I47GU90CyGLeevtyx7nM",
     auteur: "Chinonye Chukwu",
     films: [
       "Alaska Land (2012)",
@@ -161,29 +161,28 @@ export const auteurs = [
     ],
   },
   {
-    image: "",
+    image: "https://assets.vogue.com/photos/6147f18fed6152df47722ea9/master/w_2560%2Cc_limit/GettyImages-1341349018.jpg",
     auteur: "Michaela Coel",
     films: ["I May Destroy You (2020) (miniseries)"],
   },
   {
-    image: "",
+    image: "https://images.squarespace-cdn.com/content/v1/56d3617f746fb93b0ba6d89c/1456978317034-VPZMKVRHEI3AD389DDEA/image-asset.jpeg",
     auteur: "Kathleen Collins",
     films: ["Losing Ground (1982)"],
   },
   {
-    image: "",
+    image: "https://variety.com/wp-content/uploads/2021/08/Nia-DaCosta-Director-1.jpg",
     auteur: "Nia DaCosta",
     films: ["Little Woods (2018)", "Candyman (2021)", "The Marvels (2022)"],
   },
   {
-    image: "",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFAe7XivA3-AhuStafk4xVZI9sH7CDzJYPC1hZwj1qGCbIRx4bf9Y0VVPgIw&s",
     auteur: "Julie Dash",
     films: [
       "Diary of an African Nun (1977)",
       "Four Women (1978)",
       "Illusions (1982)",
       "Praise House (1991)",
-      ,
       "Daughters of the Dust (1991) - the first film directed by an African-American woman with general theatrical release and distribution",
       "SUBWAYStories: Tales from the Underground (1997)",
       "Funny Valentines (1999)",
@@ -193,7 +192,7 @@ export const auteurs = [
     ],
   },
   {
-    image: "",
+    image: "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1687,w_3000,x_0,y_0/dpr_1.5/c_limit,w_1600/fl_lossy,q_auto/v1594878473/200714-leon-prince-bythewood-tease_yyhlvo",
     auteur: "Gina Prince-Bythewood",
     films: [
       "Love & Basketball (2000)",
@@ -205,7 +204,7 @@ export const auteurs = [
     ],
   },
   {
-    image: "",
+    image: "https://womeninfilm.org/wp-content/uploads/2020/08/Late-Night-grid-5.jpg",
     auteur: "Cheryl Dunye",
     films: [
       "Janine (1990)",
@@ -222,7 +221,7 @@ export const auteurs = [
     ],
   },
   {
-    image: "",
+    image: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/filmmaker-ava-duvernay-attends-the-array-open-house-at-the-news-photo-1568660082.jpg?crop=0.668xw:1.00xh;0.332xw,0&resize=640:*",
     auteur: "Ava DuVernay",
     films: [
       "I Will Follow (2010)",
@@ -235,12 +234,12 @@ export const auteurs = [
     ],
   },
   {
-    image: "",
+    image: "https://m.media-amazon.com/images/M/MV5BZGM1M2I1ZWQtNWVmMC00YTE4LWFiNDEtNWVlN2FmNmU5MjZjXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
     auteur: "Regina King",
     films: ["One Night in Miami... (2020)"],
   },
   {
-    image: "",
+    image: "https://media.allure.com/photos/62bded6139b5823e2070d10b/1:1/w_354%2Cc_limit/beyonce%25CC%2581%2520renaissance%2520album%2520cover%2520.jpg",
     auteur: "Beyonce Knowles-Carter",
     films: [
       "Life Is But a Dream (2013)",
@@ -250,7 +249,7 @@ export const auteurs = [
     ],
   },
   {
-    image: "",
+    image: "https://communication.ucsd.edu/_images/people/Faculty/faculty-davis-zeinabu.jpg",
     auteur: "Zeinabu Irene Davis",
     films: [
       "Filmstatement (1982)",
@@ -274,7 +273,7 @@ export const auteurs = [
     films: ["And the Living is Easy"],
   },
   {
-    image: "",
+    image: "https://radcliffe-harvard-edu.imgix.net/8a4e8dc1-667b-4eac-9586-b5c344d72b0f/Diop-Mati_5789_radcliffe-TR.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=29%2C657%2C2610%2C2610",
     auteur: "Mati Diop",
     films: [
       "Atlantiques (2009) (short)",
@@ -286,7 +285,7 @@ export const auteurs = [
   },
 
   {
-    image: "",
+    image: "https://dd8thtkc05n1s.cloudfront.net/uploads/member/member_image/1121/Leila-Djansi.jpg",
     auteur: "Leila Djansi",
     films: [
       "Ties That Bind (2011)",
@@ -302,23 +301,23 @@ export const auteurs = [
   },
 
   {
-    image: "",
+    image: "https://m.media-amazon.com/images/M/MV5BMTIwNTEyNDI5Ml5BMl5BanBnXkFtZTYwMTUwODcz._V1_.jpg",
     auteur: "Lisa Gay Hamilton",
     films: ["Beah: A Black Woman Speaks (2003)"],
   },
   {
-    image: "",
+    image: "https://m.media-amazon.com/images/M/MV5BMmZmNjUyYWItZTJhMC00YjA3LTg2NzktMzljZWZhOTU3M2VkXkEyXkFqcGdeQXVyMTE1MTYxNDAw._V1_.jpg",
     auteur: "Tina Gordon Chism",
     films: ["Little (2019)", "Praise This (2020)"],
   },
   {
-    image: "",
+    image: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSwJGUzb8F17x3RmLLKDkmuI8DcI_sxC7fwzBFDeBQ_0DPIfS_y",
     auteur: "Tanya Hamilton",
     films: ["The Killers (1995)", "Night Catches Us (2010)"],
   },
 
   {
-    image: "",
+    image: "https://variety.com/wp-content/uploads/2022/08/wanuri-kahiu.jpg?w=1000",
     auteur: "Wanuri Kahiu",
     films: [
       "The Spark That Unites (2005)",
@@ -332,13 +331,13 @@ export const auteurs = [
   },
 
   {
-    image: "",
+    image: "https://www.cinema.ucla.edu/sites/default/files/styles/Individual-Primary/public/larkin_0.jpg?itok=WV9OHUlN",
     auteur: "Alile Sharon Larkin",
     films: ["A Different Image (1982)"],
   },
 
   {
-    image: "",
+    image: "https://tisch.nyu.edu/content/dam/tisch/grad-film/News/2020/kasi-lemmons.jpg",
     auteur: "Kasi Lemmons",
     films: [
       "Eve's Bayou (1997)",
@@ -350,7 +349,7 @@ export const auteurs = [
     ],
   },
   {
-    image: "",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWQSC2J7zDDfZf2DhqFZyYQJzDc6L8cls0qT6d4hCwMOWNVAxb5yFFxUme6GtxyDuZe1w&usqp=CAU",
     auteur: "Nnegest Likké",
     films: [
       "Everything But a Man (2016)",
@@ -360,7 +359,7 @@ export const auteurs = [
   },
 
   {
-    image: "",
+    image: "https://legacynyplorg-live.s3.amazonaws.com/s3fs-public/images/person/lynch.jpg",
     auteur: "Shola Lynch",
     films: [
       "Chisholm '72: Unbought & Unbossed",
@@ -369,7 +368,7 @@ export const auteurs = [
   },
 
   {
-    image: "",
+    image: "https://www.themoviedb.org/t/p/w500/5BNUlo3TeNmYrlAeu6zrYr9mbW1.jpg",
     auteur: "Victoria Mahoney",
     films: [
       "Yelling to the Sky (2011)",
@@ -378,7 +377,7 @@ export const auteurs = [
   },
 
   {
-    image: "",
+    image: "https://static01.nyt.com/images/2016/12/18/arts/18CREW2/18CREW2-popup.jpg",
     auteur: "Jessie Maple",
     films: [
       "Methadone: Wonder Drug or Evil Spirit (1976)",
@@ -389,7 +388,7 @@ export const auteurs = [
   },
 
   {
-    image: "",
+    image: "https://www4.pictures.zimbio.com/gi/42nd+Annual+NYWIFT+Muse+Awards+UaGY12OiMTtl.jpg",
     auteur: "Darnell Martin",
     films: [
       "Suspect (1992)",
@@ -402,7 +401,7 @@ export const auteurs = [
     ],
   },
   {
-    image: "",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6tZtWzRWyX3KK0V2UD0xXiKdwD8Z0Kwbt8aKal7E9lKpWU2ujTrqZ3w61VYPhJfm86K0&usqp=CAU",
     auteur: "Melina Matsoukas",
     films: [
       "We Found Love (2011) (short)",
@@ -413,7 +412,7 @@ export const auteurs = [
   },
 
   {
-    image: "",
+    image: "https://arts.ucsc.edu/sites/default/files/event_images/VMCC_Barbara_542x360.jpg",
     auteur: "Barbara McCullough",
     films: [
       "Water Ritual #1: An Urban Rite of Purification (1979)",
@@ -424,7 +423,7 @@ export const auteurs = [
   },
 
   {
-    image: "",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtZQwOBESUq-rIf91X5-N9IimMFvOBxFpVhqbELmbL_TKyVhOddmyQxml9HF2YV5Ui2tQ&usqp=CAU",
     auteur: "Stella Meghie",
     films: [
       "Jean of the Joneses (2016)",
@@ -435,7 +434,7 @@ export const auteurs = [
   },
 
   {
-    image: "",
+    image: "https://www.themoviedb.org/t/p/w235_and_h235_face/tn4GRvjF21cbtJwmH4pRa2w5pXI.jpg",
     auteur: "Ngozi Onwurah",
     films: [
       "Coffee Colored Children (1988)",
@@ -449,7 +448,7 @@ export const auteurs = [
   },
 
   {
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/1c/Euzhan_Palcy_2012_%28cropped%29.jpg",
     auteur: "Euzhan Palcy",
     films: [
       "Sugar Cane Alley (1983)",
@@ -464,7 +463,7 @@ export const auteurs = [
   },
 
   {
-    image: "",
+    image: "https://www.blackfilm.com/read/wp-content/uploads/2020/01/Channing-Godfrey-Peoples-cover.jpg",
     auteur: "Channing Godfrey Peoples",
     films: [
       "Carry Me Home (2009) (documentary short)",
@@ -475,7 +474,7 @@ export const auteurs = [
   },
 
   {
-    image: "",
+    image: "https://m.media-amazon.com/images/G/01/IMDbPro/images/Numa_Perrier3._SX700_CR0,0,700,393_AL_.png",
     auteur: "Numa Perrier",
     films: [
       "Judi: A Series of Memories (2005) (short)",
@@ -487,12 +486,12 @@ export const auteurs = [
   },
 
   {
-    image: "",
+    image: "https://broadwaypodcastnetwork.com/wp-content/uploads/TONYA-PINKINS.jpg",
     auteur: "Tonya Pinkins",
     films: ["Red Pill (2020)"],
   },
   {
-    image: "",
+    image: "https://www.indiewire.com/wp-content/uploads/2019/04/9446176pu.jpg",
     auteur: "Dee Rees",
     films: [
       "Orange Bow (2005)",
@@ -522,13 +521,13 @@ export const auteurs = [
     ],
   },
   {
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/8/83/Cauleen_Smith.jpg",
     auteur: "Cauleen Smith",
     films: ["Drylongso (1988)", "Chronicles of a Lying Spirit (1992)"],
   },
 
   {
-    image: "",
+    image: "https://www.widc.ca/wp-content/uploads/2021/05/frances-anne-solomon.jpeg",
     auteur: "Frances-Anne Solomon",
     films: [
       "I Is A Long Memoried Woman (1990)",
@@ -546,7 +545,7 @@ export const auteurs = [
   },
 
   {
-    image: "",
+    image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRhCTRH3ZHvO_NstvJUAYg4ANYTNCUS15kDK-dKh-RfB9KyDZPh",
     auteur: "Nzingha Stewart",
     films: [
       "With This Ring (2015)",
@@ -556,7 +555,7 @@ export const auteurs = [
   },
 
   {
-    image: "",
+    image: "https://images.squarespace-cdn.com/content/v1/584c0f01d2b8579f007d0ff0/1516234132501-DV2Z54NT9EF4731WX5AB/Sylvia+Sweeney.jpg?format=750w",
     auteur: "Sylvia Sweeney",
     films: ["Breaking the Ice: Story of Mary Ann Shadd (2000)"],
   },
@@ -572,17 +571,17 @@ export const auteurs = [
   },
 
   {
-    image: "",
+    image: "https://guernicamag.com/wp-content/uploads/2016/04/tommy-top.jpg",
     auteur: "Liesl Tommy",
     films: ["Respect (2020)", "Born a Crime (TBD)"],
   },
   {
-    image: "",
+    image: "https://www.cinema.ucla.edu/sites/default/files/Wali.jpg",
     auteur: "Monona Wali",
     films: ["Grey Area (1981)"],
   },
   {
-    image: "",
+    image: "https://pbs.twimg.com/profile_images/1321993637195034624/AGZ6j6oS_400x400.jpg",
     auteur: "Yvonne Welbon",
     films: [
       "Monique (1991)",
@@ -594,18 +593,18 @@ export const auteurs = [
     ],
   },
   {
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Promotional_Material_for_Liz_White%27s_%22Othello%22.jpg/220px-Promotional_Material_for_Liz_White%27s_%22Othello%22.jpg",
     auteur: "Liz White",
     films: ["Othello (1980)"],
   },
   {
-    image: "",
+    image: "https://m.media-amazon.com/images/M/MV5BNTBhNjdjMjUtOThkOS00OWQ5LTg4MGEtNjkwNjM1NWNkMTliXkEyXkFqcGdeQXVyNTgzMzk4NDQ@._V1_UX214_CR0,0,214,317_AL_.jpg",
     auteur: "Tammy Williams",
     films: ["Ernie & Cerbie (2018)", "Street Nurse (2018)"],
   },
 
   {
-    image: "",
+    image: "https://www.cccb.org/rcs_gene/image-original.jpg",
     auteur: "Fronza Woods",
     films: ["Killing Time (1979)", "Fannie's Film (1979)"],
   },
