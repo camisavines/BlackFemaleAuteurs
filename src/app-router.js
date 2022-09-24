@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route} from 'react-router-dom';
 import Home from "./pages/home";
 import About from "./pages/about";
 import Auteurs from "./pages/auteurs";
+import Adornment from "./pages/adornment";
 // import Classmates from "./pages/classmates";
 
 // components
@@ -24,6 +25,7 @@ function App() {
       <Route exact path={ROUTES.HOME} component={Home} />
       <Route path={ROUTES.ABOUT} component={About} />
       <Route path={ROUTES.AUTEURS} component={Auteurs} />
+      <Route path={ROUTES.ADORN} component={Adornment} />
       {/* <Route path={ROUTES.CLASSMATES} component={Classmates} /> */}
       <Footer />
     </Router>
